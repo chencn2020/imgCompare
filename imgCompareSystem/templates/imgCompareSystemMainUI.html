@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{margin:0; padding:0px;} /*此行不用管，是为了清除代码样式*/
+    .mybox{width:100%; margin:10px auto;}
+    .myboxImg{width:100%; max-width:100%;}
+    .buttonStyle{width:200px; height: 50px;}
+
+    .main{float:None;border:1px; width:100%; margin:10px auto;  }
+    .left{float:left;border:1px; width:48%;  }
+    .right {float:left;border:1px; width:48%;  }
+</style>
+
+<link rel="stylesheet" href="./static/css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+<link href="./static/css/font-awesome.min.css" rel="stylesheet">
+<body>
+    <div class="main">
+        <!--删除了style属性，变得简洁-->
+        <div class="left">
+            <img src=".\static\images\1.jpg" class="myboxImg">
+            <br>
+            <span style="color: #999; "><u>图一</u></span>
+        </div>
+
+                <!--删除了style属性，变得简洁-->
+        <div class="right">
+            <img src=".\static\images\2.jpg" class="myboxImg">
+            <br>
+            <span style="color: #999; "><u>图二</u></span>
+        </div>
+
+{#        <img src=".\static\images\1.jpg" alt="图一">#}
+{#        <img src=".\static\images\2.jpg" alt="图二">#}
+    </div>
+    
+    <fieldset>
+        <legend>你觉得那张图主观效果更好</legend>
+    <div>
+        <form action="/login_user" method="post">
+
+        
+        <label><input type="radio" name="img_chosen" /> 图一</label>
+        <label><input type="radio" name="img_chosen" /> 图二</label>
+        <br>
+        <button type="submit" class="buttonStyle" >提交</button>
+        </form>
+    </div>
+    </fieldset>
+</body>
+</html>
