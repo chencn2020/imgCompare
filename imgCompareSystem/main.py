@@ -1,53 +1,103 @@
 from flask import Flask
 from flask import request
 import json
-from flask import Flask, render_template, request, Response
+from flask import Flask, render_template, request, Response, redirect
 from utils import checkUseInfo
+from utils import compareImgDatabase as CID
+import random
+import string
 
-app = Flask(__name__)
+compareImgDatabase = 'test1'
+print('测试数据集：', compareImgDatabase)
+app = Flask(__name__, static_folder='', static_url_path='')
 checkUser = checkUseInfo.checkUserInfo()
+compareDB = CID.compareImgDatabase(compareImgDatabase)
+userCookie = {}
+imgInfoCookie = {}
 
-@app.route('/', methods=['GET'])
-def log_in(info=''):
-    return render_template('index.html', info=info)
+
+def get_random_cookie():
+    data = string.digits + string.ascii_letters
+    cookie = ""
+    for i in range(11):
+        cookie += random.choice(data)
+    return cookie
 
 
-@app.route("/login_user", methods=['POST', 'GET'])  # 用户登录
-def login_user():
-    userName = request.form.get("userName")
-    password = request.form.get("password")
+def get_key_from_dict(searchDict, searchValue):
+    for key, value in searchDict.items():
+        if value == searchValue:
+            return key
+    return False
 
-    print(userName, password)
 
-    res = checkUser.login_check(userName, password)
+@app.route('/', methods=['GET', 'POST'])
+def log_in():
+    if request.method == "GET":
+        return render_template("index.html")
+    elif request.method == "POST":
+        userName = request.form.get("userName")
+        password = request.form.get("password")
 
-    print('用户{}登录{}'.format(userName, res))
+        res = checkUser.login_check(userName, password)
+        print('用户{}登录{}'.format(userName, res))
 
-    if res:
-        return render_template('imgCompareSystemMainUI.html')
-    else:
-        return Response(log_in("alert('密码错误')"))
+        if res:
+            red = redirect('/service')
+            cookie_data = get_random_cookie()
+            userCookie[userName] = cookie_data
+            red.set_cookie("token", cookie_data)
+            return red
+        else:
+            return render_template('index.html', info="密码错误")
 
-    # result = p.run_store_produce("EXEC log_in_customer '{}', '{}'".format(password, phone))
-    # if len(result) != 0:
-    #     global customer_id_
-    #     global customer_name
-    #     global customer_phone
-    #     customer_phone = phone
-    #     customer_id_ = str(result[0][0])
-    #     customer_name = str(result[0][1])
-    #     return Response(index())
-    # else:
-    #     return render_template("loginlqc.html")
 
-# 设置访问URL：'/plus'，methods：允许哪种方式访问
-@app.route('/plus', methods=['POST'])
-def plus():
-    data = json.loads(request.data.decode())
-    x = data['x']
-    y = data['y']
+load_info = None
 
-    return json.dumps(x + y)
+
+@app.route('/service', methods=['POST', 'GET'])
+def server():
+    global load_info
+
+    user_token = request.cookies.get("token")
+    userName = get_key_from_dict(userCookie, user_token)
+
+    if userName:
+        if request.method == "GET":
+            [finish_num, full_num] = compareDB.get_finish_info(userName)
+            [nowCase, img1, img2, res] = compareDB.get_a_not_finish_case(userName)
+
+            if nowCase is not None:
+                imgInfoCookie[userName + nowCase] = int(res)
+                tempInfo = load_info
+                load_info = None
+            else:
+                tempInfo = "alert('所有case均已完成')"
+            return render_template("imgCompareSystemMainUI.html", user_name=userName, dataset_judge=compareImgDatabase,
+                                   now_case=nowCase, finish_num=finish_num, full_num=full_num, img1=img1, img2=img2,
+                                   load_info=tempInfo)
+        elif request.method == "POST":
+            img_chosen = request.values['img_chosen']
+            case_name = request.form.get('message')
+            if userName + case_name not in imgInfoCookie or imgInfoCookie[userName + case_name] is None:
+                return redirect('/service')
+            isGt = int(imgInfoCookie[userName + case_name] == int(img_chosen))
+            print("用户{}在{}选择{}，是否GT{}".format(userName, case_name, img_chosen, isGt))
+
+            res = compareDB.update_choice(case_name, userName, isGt)
+            imgInfoCookie[userName + case_name] = None
+            if res:
+                load_info = "alert('提交完成，等待系统继续分配')"
+                return redirect('/service')
+    print('用户登录过期')
+    return render_template('index.html', info="登录过期，请重新登录")
+
+
+@app.route('/analyze', methods=['POST', 'GET'])
+def analyze():
+    res = compareDB.get_case_score_details()
+    print('!'.join(res))
+    return render_template('analyze.html', order_num=len(res), order_list='!'.join(res))
 
 
 if __name__ == '__main__':

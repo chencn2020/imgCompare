@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <!-- https://fonts.google.com/specimen/Roboto -->
+    <link rel="stylesheet" href="static/css/fontawesome.min.css">
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="static/css/templatemo-style.css">
+    <!--
+	Product Admin CSS Template
+	https://templatemo.com/tm-524-product-admin
+	-->
+</head>
+
+<body id="reportsPage" onload="insert_order_html({{ order_num }}, '{{ order_list }}');">
+
+<script language="javascript">
+
+    function insert_order_html(Str1, list) {
+        str = ""
+        temp = list.split("!")
+
+        console.log(temp)
+        for (i = 0; i < Number(Str1); ++i) {
+            k = i.toString()
+            tem = temp[i].split(",")
+
+            str = str + "<tr>"
+            str = str + "<td>" + tem[0] + "</td>&nbsp;"
+            str = str + "<td>" + tem[1] + "</td>&nbsp;"
+            str = str + "<td>" + tem[2] + "</td>&nbsp;"
+            str = str + "</tr>"
+        }
+
+        aa.innerHTML = str;
+    }
+
+
+</script>
+
+
+<div class="" id="home">
+    <nav class="navbar navbar-expand-xl">
+        <div class="container h-100">
+            <a class="navbar-brand" href="index.html">
+                <h1 class="tm-site-title mb-0">对比打分统计信息</h1>
+            </a>
+            <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars tm-nav-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto h-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <i class="fas fa-tachometer-alt"></i>
+                            统计信息
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+        </div>
+        <!-- row -->
+        <div class="row tm-content-row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+                <div class="tm-bg-primary-dark tm-block tm-block-taller">
+                    <h2 class="tm-block-title">客户等级占比</h2>
+                    <div id="pieChartContainer">
+                        <canvas id="pieChart" class="chartjs-render-monitor" width="200" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 tm-block-col">
+                <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
+                    <h2 class="tm-block-title">统计信息详情</h2>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Case</th>
+                            <th scope="col">评分人</th>
+                            <th scope="col">是否选择GT为最优图像</th>
+                        </tr>
+                        </thead>
+
+                        <tbody id="aa"></tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="static/js/jquery-3.3.1.min.js"></script>
+<!-- https://jquery.com/download/ -->
+<script src="static/js/moment.min.js"></script>
+<!-- https://momentjs.com/ -->
+<script src="static/js/Chart.min.js"></script>
+<!-- http://www.chartjs.org/docs/latest/ -->
+<script src="static/js/bootstrap.min.js"></script>
+<!-- https://getbootstrap.com/ -->
+<script src="static/js/tooplate-scripts.js"></script>
+<script>
+    Chart.defaults.global.defaultFontColor = 'white';
+    $(function () {
+        {#drawPieChart(); // Pie Chart#}
+        if ($("#pieChart").length) {
+            var chartHeight = 300;
+
+            $("#pieChartContainer").css("height", chartHeight + "px");
+
+            ctxPie = document.getElementById("pieChart").getContext("2d");
+
+            optionsPie = {
+                responsive: true,
+                maintainAspectRatio: false,
+                layout: {
+                    padding: {
+                        left: 10,
+                        right: 10,
+                        top: 10,
+                        bottom: 10
+                    }
+                },
+                legend: {
+                    position: "top"
+                }
+            };
+
+            configPie = {
+                type: "pie",
+                data: {
+                    datasets: [
+                        {
+                            {#data: [{{customer_num1}}, {{customer_num2}}, {{customer_num3}}, {{customer_num4}}],#}
+                            data: [2, 4],
+                            backgroundColor: ["#F7604D", "#4ED6B8", "#A8D582", "#9D66CC"],
+                            label: "Storage"
+                        }
+                    ],
+                    labels: [
+                        "选取GT",
+                        "未选取GT",
+                    ]
+                },
+                options: optionsPie
+            };
+
+            pieChart = new Chart(ctxPie, configPie);
+        }
+        ;
+    })
+</script>
+</body>
+
+</html>
