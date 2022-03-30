@@ -19,7 +19,8 @@
 	-->
 </head>
 
-<body id="reportsPage" onload="insert_order_html({{ order_num }}, '{{ order_list }}');">
+<body id="reportsPage"
+      onload="insert_order_html({{ order_num }}, '{{ order_list }}'); insert_pi({{piNum}}); run_pi({{piNum}}, '{{ piInfo }}')">
 
 <script language="javascript">
 
@@ -40,6 +41,74 @@
         }
 
         aa.innerHTML = str;
+    };
+
+    function insert_pi(Str1) {
+        str = ""
+        for (i = 1; i < Number(Str1) + 1; ++i) {
+            str = str + "<div class='col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col'>"
+            str = str + "<div class='tm-bg-primary-dark tm-block tm-block-taller'  style='height:350px;width:350px'>"
+            str = str + "<h2 class='tm-block-title'>Case"+i.toString()+"</h2>"
+            str = str + "<div id='pieChartContainer"+i.toString()+"' style='height:300px;width:300px'>"
+            str = str + "<canvas id='pieChart"+i.toString()+"' class='chartjs-render-monitor' width='200' height='200'></canvas>"
+            str = str + "</div></div></div>"
+        }
+        document.getElementById("piInner").innerHTML = str;
+
+    };
+
+    function run_pi(numStr, nameStr){
+        Chart.defaults.global.defaultFontColor = 'white';
+        temp = nameStr.split("!")
+
+        var chartHeight = 300;
+
+        $("#pieChartContainer").css("height", chartHeight + "px");
+
+        for (i = 1; i < Number(numStr) + 1; ++i) {
+            tem = temp[i-1].split(",")
+            idName = "pieChart"+i.toString()
+            console.log(idName)
+            ctxPie =  $(idName);
+            var ctxPie = document.getElementById("piInner").getElementsByTagName("canvas");
+            ctxPie = ctxPie[i-1].getContext("2d");
+            optionsPie = {
+                responsive: true,
+                maintainAspectRatio: false,
+                layout: {
+                    padding: {
+                        left: 10,
+                        right: 10,
+                        top: 10,
+                        bottom: 10
+                    }
+                },
+                legend: {
+                    position: "top"
+                }
+            };
+
+            configPie = {
+                type: "pie",
+                data: {
+                    datasets: [
+                        {
+                            data: [Number(tem[0]), Number(tem[1])],
+                            backgroundColor: ["#F7604D", "#4ED6B8", "#A8D582", "#9D66CC"],
+                            label: "Storage"
+                        }
+                    ],
+                    labels: [
+                        "选取GT",
+                        "未选取GT",
+                    ]
+                },
+                options: optionsPie
+            };
+
+            pieChart = new Chart(ctxPie, configPie);
+        }
+        ;
     }
 
 
@@ -80,14 +149,35 @@
         </div>
         <!-- row -->
         <div class="row tm-content-row">
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+            <div id="piInner"></div>
+            <!-- <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
                 <div class="tm-bg-primary-dark tm-block tm-block-taller">
-                    <h2 class="tm-block-title">客户等级占比</h2>
-                    <div id="pieChartContainer">
-                        <canvas id="pieChart" class="chartjs-render-monitor" width="200" height="200"></canvas>
+                    <h2 class="tm-block-title">Case1</h2>
+                    <div id="pieChartContainer1">
+                        <canvas id="pieChart1" class="chartjs-render-monitor" width="200" height="200"></canvas>
                     </div>
                 </div>
             </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+                <div class="tm-bg-primary-dark tm-block tm-block-taller">
+                    <h2 class="tm-block-title">Case2</h2>
+                    <div id="pieChartContainer2">
+                        <canvas id="pieChart2" class="chartjs-render-monitor" width="200" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+                <div class="tm-bg-primary-dark tm-block tm-block-taller">
+                    <h2 class="tm-block-title">Case3</h2>
+                    <div id="pieChartContainer3">
+                        <canvas id="pieChart3" class="chartjs-render-monitor" width="200" height="200"></canvas>
+                    </div>
+                </div>
+            </div> -->
+
 
             <div class="col-12 tm-block-col">
                 <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
@@ -108,6 +198,19 @@
 
         </div>
     </div>
+
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend class="tm-block-title">------------------导出结果------------------</legend>
+            <div>
+<!--                <form action="/analyze" method="post" enctype="multipart/form-data">-->
+                    <button id="export" class="layui-btn icon-btn"><i class="layui-icon">&#xe67d;</i>导出</button>
+<!--                </form>-->
+            </div>
+        </fieldset>
+    </div>
+
+
 </div>
 
 <script src="static/js/jquery-3.3.1.min.js"></script>
@@ -120,55 +223,19 @@
 <!-- https://getbootstrap.com/ -->
 <script src="static/js/tooplate-scripts.js"></script>
 <script>
-    Chart.defaults.global.defaultFontColor = 'white';
-    $(function () {
-        {#drawPieChart(); // Pie Chart#}
-        if ($("#pieChart").length) {
-            var chartHeight = 300;
+$('#export').click(function () {
+        var excel="";
+        excel+="<table>";
+        var html=document.getElementById("aa").innerHTML;
+        excel+=html;
+        excel+="</table>";
+        var excelFile="<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:"+excel+"' xmlns='http://www.w3.org/TR/REC-html40'>";
+        excelFile=excelFile+"<head><style type=\"text/css\">table td {border: 1px solid #000000;width: 200px;height: 30px text-align: center;}</style></head>"+excel+"</body></html>";
+        var base64data="base64,"+window.btoa(unescape(encodeURIComponent(excelFile)));
+        window.open('data:application/vnd.ms-excel;'+ base64data);
+    });
 
-            $("#pieChartContainer").css("height", chartHeight + "px");
 
-            ctxPie = document.getElementById("pieChart").getContext("2d");
-
-            optionsPie = {
-                responsive: true,
-                maintainAspectRatio: false,
-                layout: {
-                    padding: {
-                        left: 10,
-                        right: 10,
-                        top: 10,
-                        bottom: 10
-                    }
-                },
-                legend: {
-                    position: "top"
-                }
-            };
-
-            configPie = {
-                type: "pie",
-                data: {
-                    datasets: [
-                        {
-                            {#data: [{{customer_num1}}, {{customer_num2}}, {{customer_num3}}, {{customer_num4}}],#}
-                            data: [2, 4],
-                            backgroundColor: ["#F7604D", "#4ED6B8", "#A8D582", "#9D66CC"],
-                            label: "Storage"
-                        }
-                    ],
-                    labels: [
-                        "选取GT",
-                        "未选取GT",
-                    ]
-                },
-                options: optionsPie
-            };
-
-            pieChart = new Chart(ctxPie, configPie);
-        }
-        ;
-    })
 </script>
 </body>
 

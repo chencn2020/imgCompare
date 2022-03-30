@@ -95,9 +95,19 @@ def server():
 
 @app.route('/analyze', methods=['POST', 'GET'])
 def analyze():
-    res = compareDB.get_case_score_details()
-    print('!'.join(res))
-    return render_template('analyze.html', order_num=len(res), order_list='!'.join(res))
+    user_token = request.cookies.get("token")
+    userName = get_key_from_dict(userCookie, user_token)
+
+    if userName:
+        res = compareDB.get_case_score_details()
+        piInfo = compareDB.analyse_res()
+        for index, info in enumerate(piInfo):
+            piInfo[index] = '{},{}'.format(info[1], info[2])
+        print('!'.join(res))
+        print(piInfo)
+        return render_template('analyze.html', order_num=len(res), order_list='!'.join(res), piNum=len(piInfo), piInfo='!'.join(piInfo))
+    print('用户登录过期')
+    return render_template('index.html', info="登录过期，请重新登录")
 
 
 if __name__ == '__main__':

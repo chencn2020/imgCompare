@@ -8,12 +8,14 @@
 import sqlite3
 import os
 
+
 class checkUserInfo():
     def __init__(self):
         # print(os.getcwd())
         # print(os.path.join(os.getcwd(), 'imgCompareSystem',
         #                                                  'source/database/userInfo.db'))
-        self.userDatabase = sqlite3.connect(os.path.join(os.getcwd(), 'source/database/userInfo.db'), check_same_thread=False)
+        self.userDatabase = sqlite3.connect(os.path.join(os.getcwd(), 'source/database/userInfo.db'),
+                                            check_same_thread=False)
         self.cu = self.userDatabase.cursor()
 
     def commit_sql(self):
@@ -38,13 +40,13 @@ class checkUserInfo():
         else:
             return True
 
+
 if __name__ == '__main__':
     sql = checkUserInfo()
     # sql.create_table("create table userInfo (userName varchar(10) primary key,password varchar(10))")
 
     # sql.insert_user(['czw', 'lb', 'wj', 'qhn', 'zxz', 'hlf', 'cmx', 'lr'],
     #                 ['czw', 'lb', 'wj', 'qhn', 'zxz', 'hlf', 'cmx', 'lr'])
-
 
     # print(sql.login_check("select * from userInfo where userName = 'czw' and password = '1'"))
     print(sql.login_check('czw', 'czw'))

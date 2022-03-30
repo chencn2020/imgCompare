@@ -53,23 +53,32 @@ class compareImgDatabase:
         print('show_all', res)
 
     def analyse_res(self):
-        sql = "select caseName, count(userName), sum(isGt) from compareImgInfo group by caseName"
+        sql = "select caseName, sum(isGt), count(userName) - sum(isGt) from compareImgInfo group by caseName"
         self.cu.execute(sql)
         res = self.cu.fetchall()
         print('analyse_res', res)
+        return res
 
     def get_case_score_details(self):
         caseList = self.get_all_case_name()
-        detailInfo = ['是', '否']
+        detailInfo = ['否', '是']
         analyse_res = []
+        analyse_all = {}
         for case in caseList:
             sql = "select * from compareImgInfo where caseName = '{}'".format(case)
             self.cu.execute(sql)
             res = self.cu.fetchall()
             if len(res) > 0:
+                if case not in analyse_all:
+                    analyse_all[case] = [0, 0]
                 for _, user, isGt in res:
                     analyse_res.append('{},{},{}'.format(case, user, detailInfo[isGt]))
+                    analyse_all[case][isGt] += 1
+
+        for key, value in analyse_all.items():
+            analyse_res.append(','.join([key, '未选GT:{}'.format(value[0]), '选择GT:{}'.format(value[1])]))
         print('analyse_res', analyse_res)
+
         return analyse_res
 
     def get_finish_info(self, userName):
