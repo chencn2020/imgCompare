@@ -93,7 +93,7 @@
                 data: {
                     datasets: [
                         {
-                            data: [Number(tem[0]), Number(tem[1])],
+                            data: [1.0 * Number(tem[0]) / (Number(tem[0]) + Number(tem[1])), 1.0 * Number(tem[1]) / (Number(tem[0]) + Number(tem[1]))],
                             backgroundColor: ["#F7604D", "#4ED6B8", "#A8D582", "#9D66CC"],
                             label: "Storage"
                         }

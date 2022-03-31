@@ -116,6 +116,26 @@ class compareImgDatabase:
                     return [case, other, gt, 1]
         return [None, None, None, None]
 
+    def get_a_case_and_res(self, caseIndex):
+        allCase = self.get_all_case_name()
+        caseIndex = caseIndex % len(allCase)
+        case = allCase[caseIndex]
+
+        print('get_a_not_finish_case', allCase)
+
+        for file in os.listdir(os.path.join(self.casePath, case)):
+            if 'GT' in file:
+                gt = os.path.join('.'+self.sourcePath, case, file)
+            else:
+                other = os.path.join('.'+self.sourcePath, case, file)
+
+        sql = "select sum(isGt), count(userName) - sum(isGt) from compareImgInfo where caseName = '{}'".format(case)
+        self.cu.execute(sql)
+        res = self.cu.fetchall()
+        print('analyse_res', res)
+        print(gt, other)
+        return [gt, other, res[0][0], res[0][1], case]
+
 
 if __name__ == '__main__':
     test = compareImgDatabase('test1')

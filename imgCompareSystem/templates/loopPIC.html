@@ -33,17 +33,16 @@
     <div class="main">
         <!--删除了style属性，变得简洁-->
         <div class="left">
-{#            <img src=".\static\images\1.jpg" class="myboxImg">#}
             <img src="{{ img1 }}" class="myboxImg">
             <br>
-            <span style="color: rgb(0, 0, 0);font-size: large; margin: 10px;"><u>图一</u></span>
+            <span style="color: rgb(0, 0, 0);font-size: large; margin: 10px;"><u>GT</u></span>
         </div>
 
                 <!--删除了style属性，变得简洁-->
         <div class="right">
             <img src="{{ img2 }}" class="myboxImg">
             <br>
-            <span style="color: rgb(0, 0, 0); font-size: large; margin: 10px;"><u>图二</u></span>
+            <span style="color: rgb(0, 0, 0); font-size: large; margin: 10px;"><u>非GT</u></span>
         </div>
 
     </div>
@@ -51,17 +50,14 @@
     
     <div style="margin: 25px;">
         <fieldset>
-            <legend>------------------你觉得那张图主观效果更好------------------</legend>
+            <legend>------------------查看图片------------------</legend>
         <div>
-            <form action="/service" method="post">
-    
-            <label for="">当前</label>
-{#            <label type="message" id="message" class="message" style="color: rgb(0, 0, 0);">{{now_case}}</label>#}
-            <input type="message" value="{{now_case}}" name="message" required readonly="readonly"/>
-            <label><input type="radio" name="img_chosen" value="0" checked=true/> 图一</label>
-            <label><input type="radio" name="img_chosen" value="1"/> 图二</label>
-            <br>
-            <button type="submit" class="buttonStyle" >提交</button>
+            <form action="/loopPic/pre" method="post" class="left">
+            <button type="submit" class="buttonStyle" >上一张</button>
+            </form>
+
+            <form action="/loopPic/next" method="post">
+            <button type="submit" class="buttonStyle" >下一张</button>
             </form>
         </div>
         </fieldset>
@@ -69,12 +65,12 @@
 
     <div style="margin: 25px;">
         <fieldset>
-            <legend>------------------基本信息------------------</legend>
+            <legend>------------------统计信息------------------</legend>
         <div>
-            <p>用户名: {{user_name}}</p>
-            <p>评价数据集: {{dataset_judge}}</p>
-            <!-- <p>当前Case: {{now_case}}</p> -->
-            <p>完成情况(完成数/总数): {{finish_num}} / {{full_num}}</p>
+            <p>当前Case: {{now_case}}</p>
+            <p>选择人数(选取GT人数/未选取GT人数): {{choose_gt_num}} / {{not_choose_gt_num}}</p>
+            <p>评价总人数: {{all_people_num}}</p>
+            <p>选择人数百分比(选取GT/未选取GT): {{choose_gt_per}} / {{not_choose_gt_per}}</p>
         </div>
         </fieldset>
     </div>
@@ -90,16 +86,6 @@
         </fieldset>
     </div>
 
-    <div style="margin: 25px;">
-        <fieldset>
-            <legend>------------------逐图展示------------------</legend>
-        <div>
-            <form action="/loopPic/show" method="get">
-            <button type="submit" class="buttonStyle" >立即查看</button>
-            </form>
-        </div>
-        </fieldset>
-    </div>
     
 </body>
 </html>

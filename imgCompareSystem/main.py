@@ -9,11 +9,12 @@ import string
 
 compareImgDatabase = 'test1'
 print('测试数据集：', compareImgDatabase)
-app = Flask(__name__, static_folder='', static_url_path='')
+app = Flask(__name__, static_folder='', static_url_path='/stati')
 checkUser = checkUseInfo.checkUserInfo()
 compareDB = CID.compareImgDatabase(compareImgDatabase)
 userCookie = {}
 imgInfoCookie = {}
+userChoiceCookie = {}
 
 
 def get_random_cookie():
@@ -53,6 +54,40 @@ def log_in():
 
 
 load_info = None
+
+
+@app.route('/loopPic/<choice>', methods=['POST', 'GET'])
+def loopPic(choice):
+    global load_info
+
+    user_token = request.cookies.get("token")
+    userName = get_key_from_dict(userCookie, user_token)
+    print(user_token, userCookie, choice)
+
+    if userName:
+        if userName not in userChoiceCookie:
+            userChoiceCookie[userName] = 0
+        if request.method == "GET":
+            [nowCase, img1, img2, res] = compareDB.get_a_not_finish_case(userName)
+            if nowCase is not None:
+                load_info = "alert('请完成全部Case后再查看')"
+                return redirect('/service')
+        elif request.method == 'POST':
+            if choice == 'next':
+                userChoiceCookie[userName] += 1
+            elif choice == 'pre':
+                userChoiceCookie[userName] -= 1
+            else:
+                pass
+        [gt, notGt, gtNum, notGtNum, nowCase] = compareDB.get_a_case_and_res(userChoiceCookie[userName])
+        return render_template("loopPIC.html", now_case=nowCase, img1=gt, img2=notGt,
+                               choose_gt_num=gtNum, not_choose_gt_num=notGtNum, all_people_num=gtNum + notGtNum,
+                               choose_gt_per=str(round(gtNum / (gtNum + notGtNum), 4) * 100) + '%',
+                               not_choose_gt_per=str(round(notGtNum / (gtNum + notGtNum), 4) * 100) + '%'
+                               )
+
+    print('用户登录过期')
+    return render_template('index.html', info="登录过期，请重新登录")
 
 
 @app.route('/service', methods=['POST', 'GET'])
@@ -105,7 +140,8 @@ def analyze():
             piInfo[index] = '{},{}'.format(info[1], info[2])
         print('!'.join(res))
         print(piInfo)
-        return render_template('analyze.html', order_num=len(res), order_list='!'.join(res), piNum=len(piInfo), piInfo='!'.join(piInfo))
+        return render_template('analyze.html', order_num=len(res), order_list='!'.join(res), piNum=len(piInfo),
+                               piInfo='!'.join(piInfo))
     print('用户登录过期')
     return render_template('index.html', info="登录过期，请重新登录")
 
