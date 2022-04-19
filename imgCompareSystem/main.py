@@ -8,8 +8,10 @@ import random
 import string
 
 compareImgDatabase = 'test1'
+compareImgDatabase = 'TinyISP_ResizeCrop61_TIQA_20k'
+compareImgDatabase = 'TinyISP_Crop61_SSIMOnly_20k'
 print('测试数据集：', compareImgDatabase)
-app = Flask(__name__, static_folder='', static_url_path='/stati')
+app = Flask(__name__, static_folder='', static_url_path='')
 checkUser = checkUseInfo.checkUserInfo()
 compareDB = CID.compareImgDatabase(compareImgDatabase)
 userCookie = {}
@@ -79,11 +81,14 @@ def loopPic(choice):
                 userChoiceCookie[userName] -= 1
             else:
                 pass
-        [gt, notGt, gtNum, notGtNum, nowCase] = compareDB.get_a_case_and_res(userChoiceCookie[userName])
+        [gt, notGt, gtNum, notGtNum, noDiffNum, nowCase] = compareDB.get_a_case_and_res(userChoiceCookie[userName])
         return render_template("loopPIC.html", now_case=nowCase, img1=gt, img2=notGt,
-                               choose_gt_num=gtNum, not_choose_gt_num=notGtNum, all_people_num=gtNum + notGtNum,
-                               choose_gt_per=str(round(gtNum / (gtNum + notGtNum), 4) * 100) + '%',
-                               not_choose_gt_per=str(round(notGtNum / (gtNum + notGtNum), 4) * 100) + '%'
+                               choose_gt_num=gtNum, not_choose_gt_num=notGtNum, not_diff_gt_num = noDiffNum,
+                               all_people_num=gtNum + notGtNum + noDiffNum,
+                               choose_gt_per=str(round(gtNum / (gtNum + notGtNum + noDiffNum), 4) * 100) + '%',
+                               not_choose_gt_per=str(round(notGtNum / (gtNum + notGtNum + noDiffNum), 4) * 100) + '%',
+                               not_diff_gt_per=str(round(noDiffNum / (gtNum + notGtNum + noDiffNum), 4) * 100) + '%',
+
                                )
 
     print('用户登录过期')
@@ -116,7 +121,10 @@ def server():
             case_name = request.form.get('message')
             if userName + case_name not in imgInfoCookie or imgInfoCookie[userName + case_name] is None:
                 return redirect('/service')
-            isGt = int(imgInfoCookie[userName + case_name] == int(img_chosen))
+            if int(img_chosen) == 2:
+                isGt = 2
+            else:
+                isGt = int(imgInfoCookie[userName + case_name] == int(img_chosen))
             print("用户{}在{}选择{}，是否GT{}".format(userName, case_name, img_chosen, isGt))
 
             res = compareDB.update_choice(case_name, userName, isGt)
@@ -136,16 +144,17 @@ def analyze():
     if userName:
         res = compareDB.get_case_score_details()
         piInfo = compareDB.analyse_res()
-        for index, info in enumerate(piInfo):
-            piInfo[index] = '{},{}'.format(info[1], info[2])
-        print('!'.join(res))
-        print(piInfo)
-        return render_template('analyze.html', order_num=len(res), order_list='!'.join(res), piNum=len(piInfo),
-                               piInfo='!'.join(piInfo))
+        piRes = []
+        for index, info in piInfo:
+            piRes.append('{},{},{}'.format(info[0], info[1], info[2]))
+        print('res', '!'.join(res))
+        print('piRes', '!'.join(piRes))
+        return render_template('analyze.html', order_num=len(res), order_list='!'.join(res), piNum=len(piRes),
+                               piInfo='!'.join(piRes))
     print('用户登录过期')
     return render_template('index.html', info="登录过期，请重新登录")
 
 
 if __name__ == '__main__':
     # 设置host，端口8080。threaded=True 代表开启多线程
-    app.run(host='0.0.0.0', port=8080, threaded=True)
+    app.run(host='0.0.0.0', port=7568, threaded=True)

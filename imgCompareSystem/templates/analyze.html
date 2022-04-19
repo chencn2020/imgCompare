@@ -37,6 +37,7 @@
             str = str + "<td>" + tem[0] + "</td>&nbsp;"
             str = str + "<td>" + tem[1] + "</td>&nbsp;"
             str = str + "<td>" + tem[2] + "</td>&nbsp;"
+            str = str + "<td>" + tem[3] + "</td>&nbsp;"
             str = str + "</tr>"
         }
 
@@ -59,6 +60,9 @@
 
     function run_pi(numStr, nameStr){
         Chart.defaults.global.defaultFontColor = 'white';
+        console.log(nameStr)
+            // console.log(tem)
+
         temp = nameStr.split("!")
 
         var chartHeight = 300;
@@ -68,7 +72,8 @@
         for (i = 1; i < Number(numStr) + 1; ++i) {
             tem = temp[i-1].split(",")
             idName = "pieChart"+i.toString()
-            console.log(idName)
+            // console.log(idName)
+            // console.log(tem)
             ctxPie =  $(idName);
             var ctxPie = document.getElementById("piInner").getElementsByTagName("canvas");
             ctxPie = ctxPie[i-1].getContext("2d");
@@ -93,7 +98,8 @@
                 data: {
                     datasets: [
                         {
-                            data: [1.0 * Number(tem[0]) / (Number(tem[0]) + Number(tem[1])), 1.0 * Number(tem[1]) / (Number(tem[0]) + Number(tem[1]))],
+                            // data: [1.0 * Number(tem[0]) / (Number(tem[0]) + Number(tem[1])), 1.0 * Number(tem[1]) / (Number(tem[0]) + Number(tem[1]))],
+                            data: [Number(tem[0]), Number(tem[1]), Number(tem[2])],
                             backgroundColor: ["#F7604D", "#4ED6B8", "#A8D582", "#9D66CC"],
                             label: "Storage"
                         }
@@ -101,6 +107,7 @@
                     labels: [
                         "选取GT",
                         "未选取GT",
+                        "差不多",
                     ]
                 },
                 options: optionsPie
@@ -188,6 +195,7 @@
                             <th scope="col">Case</th>
                             <th scope="col">评分人</th>
                             <th scope="col">是否选择GT为最优图像</th>
+                            <th scope="col">其他</th>
                         </tr>
                         </thead>
 
