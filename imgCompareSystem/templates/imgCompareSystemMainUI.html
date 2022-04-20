@@ -107,426 +107,44 @@
         }
     </style>
 
-
-
-
-    <script type="text/javascript">
-
-
-        function getEventObject(W3CEvent) {            //事件标准化函数
-            return W3CEvent || window.event;
-        }
-
-        function getPointerPosition(e) {            //兼容浏览器的鼠标x,y获得函数
-            e = e || getEventObject(e);
-            var x = e.pageX || (e.clientX + (document.documentElement.scrollLeft || document.body.scrollLeft));
-            var y = e.pageY || (e.clientY + (document.documentElement.scrollTop || document.body.scrollTop));
-            return { 'x': x, 'y': y };
-        }
-
-        function setOpacity(elem, level) {            //兼容浏览器设置透明值
-            if (elem.filters) {
-                elem.style.filter = 'alpha(opacity=' + level * 100 + ')';
-            } else {
-                elem.style.opacity = level;
-            }
-        }
-
-        function css(elem, prop) {                //css设置函数,方便设置css值,并且兼容设置透明值
-            for (var i in prop) {
-                if (i == 'opacity') {
-                    setOpacity(elem, prop[i]);
-                } else {
-                    elem.style[i] = prop[i];
-                }
-            }
-            return elem;
-        }
-
-        var magnifier = {
-            m: null,
-
-            init: function (magni) {
-                var m = this.m = magni || {
-                    cont: null,        //装载原始图像的div
-                    mainDiv: null,
-                    img: null,            //放大的图像
-                    mag: null,            //放大框
-                    scale: 10            //比例值,设置的值越大放大越大,但是这里有个问题就是如果不可以整除时,会产生些很小的白边,目前不知道如何解决
-                }
-
-                /*
-                指定放大后图片的大小
-                */
-                css(m.img, {
-                    'position': 'relative',
-                    'width': (m.mainDiv.clientWidth * m.scale) + 'px',                //原始图像的宽*比例值    
-                    'height': (m.mainDiv.clientHeight * m.scale) + 'px'                //原始图像的高*比例值
-                })
-
-                /*
-                指定放大框的大小
-                */
-                css(m.mag, {
-                    'display': '',
-                    // 'width': m.mainDiv.clientWidth + 'px',            //m.cont为原始图像,与原始图像等宽
-                    // 'height': m.mainDiv.clientHeight + 'px',
-                    'position': 'relative',
-                    // 'top': m.mainDiv.offsetTop + m.mainDiv.offsetHeight + m.mainDiv.offsetTop + 10 + 'px',        //放大框的位置为原始图像的右方远10px
-                    // 'left': m.mainDiv.offsetLeft + 'px'   //放大框的位置与原始图像top相同
-                })
-
-                var borderWid = m.cont.getElementsByTagName('div')[0].offsetWidth - m.cont.getElementsByTagName('div')[0].clientWidth;        //获取border的宽
-
-                css(m.cont.getElementsByTagName('div')[0], {            //m.cont.getElementsByTagName('div')[0]为浏览框
-                    'display': '',                                //开始设置为不可见
-                    'width': m.cont.clientWidth / m.scale - borderWid + 'px',            //原始图片的宽/比例值 - border的宽度
-                    'height': m.cont.clientHeight / m.scale - borderWid + 'px',        //原始图片的高/比例值 - border的宽度
-                    'opacity': 0.5                    //设置透明度
-                })
-
-                m.img.src = m.cont.getElementsByTagName('img')[0].src;            //让原始图像的src值给予放大图像
-                m.cont.style.cursor = 'crosshair';  //滑动时鼠标为十字型
-
-                m.cont.onmouseover = magnifier.start;
-
-            },
-
-
-            /*
-        鼠标进入图片时触发
-        */
-            start: function (e) {
-                if (document.all) {                //只在IE下执行,主要避免IE6的select无法覆盖
-                    //创建一个iframe，将放大的img放进去
-                    magnifier.createIframe(magnifier.m.img);
-                    magnifier1.createIframe(magnifier1.m.img);
-                }
-
-                this.onmousemove = magnifier.move;        //this指向m.cont
-                //this.onmouseout = magnifier.end;
-            },
-            /*
-       鼠标移动时触发
-       */
-            move: function (e) {
-                var pos = getPointerPosition(e);        //事件标准化
-
-                this.getElementsByTagName('div')[0].style.display = '';
-                Browser1.style.display = '';
-
-                css(this.getElementsByTagName('div')[0], {
-                    'top': Math.min(Math.max(pos.y - this.offsetTop - parseInt(this.getElementsByTagName('div')[0].style.height) / 2 + parseFloat(this.getElementsByTagName('img')[0].offsetTop), parseFloat(this.getElementsByTagName('img')[0].offsetTop)), this.clientHeight - this.getElementsByTagName('div')[0].offsetHeight + parseFloat(this.getElementsByTagName('img')[0].offsetTop)) + 'px',
-
-                    'left': Math.min(Math.max(pos.x - this.offsetLeft - parseInt(this.getElementsByTagName('div')[0].style.width) / 2 + parseFloat(this.getElementsByTagName('img')[0].offsetLeft), parseFloat(this.getElementsByTagName('img')[0].offsetLeft)), this.clientWidth - this.getElementsByTagName('div')[0].offsetWidth + parseFloat(this.getElementsByTagName('img')[0].offsetLeft)) + 'px'
-                    //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
-                })
-
-                // css(Browser1, {
-                //     'top': Math.min(Math.max(pos.y - this.offsetTop - parseInt(this.getElementsByTagName('div')[0].style.height) / 2, 0), this.clientHeight - this.getElementsByTagName('div')[0].offsetHeight) + 'px',
-                //     'left': Math.min(Math.max(pos.x - this.offsetLeft - parseInt(this.getElementsByTagName('div')[0].style.width) / 2, 0), this.clientWidth - this.getElementsByTagName('div')[0].offsetWidth) + 'px'
-                //     //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
-                // })
-
-                // css(Browser1, {
-                //     'top': Math.min(Math.max(pos.y - this.offsetTop - parseInt(this.getElementsByTagName('div')[0].style.height) / 2, 0), this.clientHeight - this.getElementsByTagName('div')[0].offsetHeight) + 'px',
-                //     'left': parseFloat(parseFloat(this.getElementsByTagName('div')[0].style.left) + parseFloat(document.body.clientWidth ) * 0.51) + 'px',
-                //     //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
-                // })
-                css(Browser1, {
-                    'top': parseFloat(this.getElementsByTagName('div')[0].style.top) + 'px',
-                    'left': parseFloat(parseFloat(this.getElementsByTagName('div')[0].style.left) + parseFloat(document.body.clientWidth) * 0.51) + 'px',
-                    //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
-                })
-                // console.log(parseFloat(this.getElementsByTagName('Browser')[0].offsetTop))
-
-
-                //显示出黑框
-                magnifier.m.mag.style.display = '';
-                magnifier1.m.mag.style.display = '';
-
-
-
-                /*
-           改变右侧图的显示
-           */
-                css(magnifier.m.img, {
-                    'top': - ((parseFloat(this.getElementsByTagName('div')[0].style.top) - parseFloat(this.getElementsByTagName('img')[0].offsetTop)) * magnifier.m.scale) + 'px',
-                    'left': -((parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(this.getElementsByTagName('img')[0].offsetLeft)) * magnifier.m.scale) + 'px'
-                    //'left':'-200px',  //图片向左移动200px
-                    //'top':'500px'
-                })
-
-                // console.log((parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(this.getElementsByTagName('img')[0].offsetLeft)))
-
-
-                css(magnifier1.m.img, {
-                    'top': - ((parseFloat(this.getElementsByTagName('div')[0].style.top) - parseFloat(this.getElementsByTagName('img')[0].offsetTop)) * magnifier.m.scale) + 'px',
-                    'left': -((parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(this.getElementsByTagName('img')[0].offsetLeft)) * magnifier.m.scale) + 'px'
-                    //'left':'-200px',  //图片向左移动200px
-                    //'top':'500px'
-                })
-
-
-
-            },
-            /*
-       鼠标离开时触发
-       */
-            end: function (e) {
-                this.getElementsByTagName('div')[0].style.display = '';//div Browser   //鼠标所在的黑框
-                magnifier.removeIframe(magnifier.m.img);        //销毁iframe
-                magnifier.m.mag.style.display = '';   //div mag //放大的图片
-
-                Browser1.style.display = '';//div Browser   //鼠标所在的黑框
-                magnifier1.removeIframe(magnifier.m.img);        //销毁iframe
-                magnifier1.m.mag.style.display = '';   //div mag //放大的图片
-            },
-
-            /*
-            鼠标进入时触发
-            */
-            createIframe: function (elem) {
-                var layer = document.createElement('iframe');
-                layer.tabIndex = '-1';
-                layer.src = 'javascript:false;';
-                elem.parentNode.appendChild(layer);
-
-                layer.style.width = elem.offsetWidth + 'px';
-                layer.style.height = elem.offsetHeight + 'px';
-            },
-            /*
-        鼠标离开时触发
-        */
-            removeIframe: function (elem) {
-                var layers = elem.parentNode.getElementsByTagName('iframe');
-                while (layers.length > 0) {
-                    layers[0].parentNode.removeChild(layers[0]);
-                }
-            }
-        }
-
-        var magnifier1 = {
-            m: null,
-
-            init: function (magni) {
-                var m = this.m = magni || {
-                    cont: null,        //装载原始图像的div
-                    mainDiv: null,
-                    img: null,            //放大的图像
-                    mag: null,            //放大框
-                    scale: 15            //比例值,设置的值越大放大越大,但是这里有个问题就是如果不可以整除时,会产生些很小的白边,目前不知道如何解决
-                }
-
-
-                /*
-                指定放大后图片的大小
-                */
-                css(m.img, {
-                    'position': 'absolute',
-                    'width': (m.cont.clientWidth * m.scale) + 'px',                //原始图像的宽*比例值    
-                    'height': (m.cont.clientHeight * m.scale) + 'px'                //原始图像的高*比例值
-                })
-
-                /*
-                指定放大框的大小
-                */
-                css(m.mag, {
-                    'display': '',
-                    // 'width': m.mainDiv.clientWidth + 'px',            //m.cont为原始图像,与原始图像等宽
-                    // 'height': m.mainDiv.clientHeight + 'px',
-                    'position': 'relative',
-                    // 'top': m.mainDiv.offsetTop + m.mainDiv.offsetHeight + m.mainDiv.offsetTop + 10 + 'px',        //放大框的位置为原始图像的右方远10px
-                    // 'left': m.mainDiv.offsetLeft + 'px'   //放大框的位置与原始图像top相同
-                })
-
-                var borderWid = m.cont.getElementsByTagName('div')[0].offsetWidth - m.cont.getElementsByTagName('div')[0].clientWidth;        //获取border的宽
-
-                css(m.cont.getElementsByTagName('div')[0], {            //m.cont.getElementsByTagName('div')[0]为浏览框
-                    'display': '',                                //开始设置为不可见
-                    'width': m.cont.clientWidth / m.scale - borderWid + 'px',            //原始图片的宽/比例值 - border的宽度
-                    'height': m.cont.clientHeight / m.scale - borderWid + 'px',        //原始图片的高/比例值 - border的宽度
-                    'opacity': 0.5                    //设置透明度
-                })
-
-                m.img.src = m.cont.getElementsByTagName('img')[0].src;            //让原始图像的src值给予放大图像
-                m.cont.style.cursor = 'crosshair';  //滑动时鼠标为十字型
-
-                m.cont.onmouseover = magnifier1.start;
-
-            },
-
-
-            /*
-        鼠标进入图片时触发
-        */
-            start: function (e) {
-                if (document.all) {                //只在IE下执行,主要避免IE6的select无法覆盖
-                    //创建一个iframe，将放大的img放进去
-                    magnifier.createIframe(magnifier.m.img);
-                    magnifier1.createIframe(magnifier1.m.img);
-                }
-
-                this.onmousemove = magnifier1.move;        //this指向m.cont
-                //this.onmouseout = magnifier.end;
-            },
-            /*
-       鼠标移动时触发
-       */
-            move: function (e) {
-                var pos = getPointerPosition(e);        //事件标准化
-
-                this.getElementsByTagName('div')[0].style.display = '';
-                Browser.style.display = '';
-                //确定broswer的显示范围
-
-                css(this.getElementsByTagName('div')[0], {
-                    'top': Math.min(Math.max(pos.y - this.offsetTop - parseInt(this.getElementsByTagName('div')[0].style.height) / 2 + parseFloat(this.getElementsByTagName('img')[0].offsetTop), parseFloat(this.getElementsByTagName('img')[0].offsetTop)), this.clientHeight - this.getElementsByTagName('div')[0].offsetHeight + parseFloat(this.getElementsByTagName('img')[0].offsetTop)) + 'px',
-
-                    'left': Math.min(Math.max(pos.x - this.offsetLeft - parseInt(this.getElementsByTagName('div')[0].style.width) / 2 + parseFloat(this.getElementsByTagName('img')[0].offsetLeft), parseFloat(this.getElementsByTagName('img')[0].offsetLeft)), this.clientWidth - this.getElementsByTagName('div')[0].offsetWidth + parseFloat(this.getElementsByTagName('img')[0].offsetLeft)) + 'px'
-                    //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
-                })
-
-                css(Browser, {
-                    'top': parseFloat(this.getElementsByTagName('div')[0].style.top) + 'px',
-                    'left': parseFloat(parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(document.body.clientWidth) * 0.51) + 'px',
-                    //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
-                })
-
-
-                //显示出黑框
-                magnifier.m.mag.style.display = '';
-                magnifier1.m.mag.style.display = '';
-
-
-
-                /*
-           改变右侧图的显示
-           */
-                css(magnifier.m.img, {
-                    'top': (parseInt(this.getElementsByTagName('div')[0].style.top) * magnifier.m.scale) + 'px',
-                    'left': (parseInt(this.getElementsByTagName('div')[0].style.left) * magnifier.m.scale) + 'px'
-                    //'left':'-200px',  //图片向左移动200px
-                    //'top':'500px'
-                })
-
-
-                css(magnifier1.m.img, {
-                    'top': (parseInt(this.getElementsByTagName('div')[0].style.top) * magnifier.m.scale) + 'px',
-                    'left': (parseInt(this.getElementsByTagName('div')[0].style.left) * magnifier.m.scale) + 'px'
-                    //'left':'-200px',  //图片向左移动200px
-                    //'top':'500px'
-                })
-
-
-
-            },
-            /*
-       鼠标离开时触发
-       */
-            end: function (e) {
-                this.getElementsByTagName('div')[0].style.display = '';//div Browser   //鼠标所在的黑框
-                magnifier.removeIframe(magnifier.m.img);        //销毁iframe
-                magnifier.m.mag.style.display = '';   //div mag //放大的图片
-
-                Browser1.style.display = '';//div Browser   //鼠标所在的黑框
-                magnifier1.removeIframe(magnifier1.m.img);        //销毁iframe
-                magnifier1.m.mag.style.display = '';   //div mag //放大的图片
-            },
-
-            /*
-            鼠标进入时触发
-            */
-            createIframe: function (elem) {
-                var layer = document.createElement('iframe');
-                layer.tabIndex = '-1';
-                layer.src = 'javascript:false;';
-                elem.parentNode.appendChild(layer);
-
-                layer.style.width = elem.offsetWidth + 'px';
-                layer.style.height = elem.offsetHeight + 'px';
-            },
-            /*
-        鼠标离开时触发
-        */
-            removeIframe: function (elem) {
-                var layers = elem.parentNode.getElementsByTagName('iframe');
-                while (layers.length > 0) {
-                    layers[0].parentNode.removeChild(layers[0]);
-                }
-            }
-        }
-
-        // function loadBody(message) {
-        //     if (message.length !== 0) {
-        //         alert(message)
-        //     }
-        // }
-
-        function loadCompare(message) {
-            console.log(123)
-            
-            magnifier.init({
-                cont: document.getElementById('magnifier'),
-                mainDiv: document.getElementById('left'),
-                img: document.getElementById('magnifierImg'),
-                mag: document.getElementById('mag'),
-                scale: 3
-            });
-
-            magnifier1.init({
-                cont: document.getElementById('magnifier1'),
-                mainDiv: document.getElementById('right'),
-                img: document.getElementById('magnifierImg1'),
-                mag: document.getElementById('mag1'),
-                scale: 3
-            });
-
-            if (message.length !== 0) {
-                alert(message)
-            }
-        }
-
-        window.οnlοad=loadCompare();
-
-    </script>
 </head>
 <link rel="stylesheet" href="./static/css/style.css" type="text/css" media="all" />
 <!-- Style-CSS -->
 <link href="./static/css/font-awesome.min.css" rel="stylesheet">
 
-<body onload="loadCompare({{load_info}})">
+<!-- <body onload="loadBody({{load_info}})"> -->
 
-    <body>
-        <div class="main">
-            <div class="left" id="left">
-                <div id="magnifier">
-                    <img src="{{ img1 }}" id="img" class="myboxImg" />
-                    <div id="Browser"></div>
-                </div>
-                <span style="color: rgb(0, 0, 0);font-size: large; margin: 10px;"><u>图一</u></span>
+<body>
+    <label type="message" id="message" class="message" style="color: rgba(255, 255, 255, 0);">{{info}}</label>
+    <div class="main">
+        <div class="left" id="left">
+            <div id="magnifier">
+                <img src="{{ img1 }}" id="img" class="myboxImg" />
+                <div id="Browser"></div>
             </div>
+            <span style="color: rgb(0, 0, 0);font-size: large; margin: 10px;"><u>图一</u></span>
+        </div>
 
-            <div class="right" id="right">
-                <div id="magnifier1">
-                    <img src="{{ img2 }}" id="img1" class="myboxImg" />
-                    <div id="Browser1"></div>
-                </div>
-                <!-- <img src="{{ img1 }}" > -->
-                <!-- <br> -->
-                <span style="color: rgb(0, 0, 0);font-size: large; margin: 10px;"><u>图二</u></span>
+        <div class="right" id="right">
+            <div id="magnifier1">
+                <img src="{{ img2 }}" id="img1" class="myboxImg" />
+                <div id="Browser1"></div>
             </div>
+            <!-- <img src="{{ img1 }}" > -->
+            <!-- <br> -->
+            <span style="color: rgb(0, 0, 0);font-size: large; margin: 10px;"><u>图二</u></span>
+        </div>
 
-            <div id="mag">
-                <img id="magnifierImg" />
-            </div>
+        <div id="mag">
+            <img id="magnifierImg" />
+        </div>
 
-            <div id="mag1">
-                <img id="magnifierImg1" />
-            </div>
+        <div id="mag1">
+            <img id="magnifierImg1" />
+        </div>
 
 
-            <!-- <div>
+        <!-- <div>
             <div class="left">
                 <div id="mag">
                     <img id="magnifierImg" />
@@ -541,63 +159,454 @@
             </div>
         </div> -->
 
-        </div>
+    </div>
 
 
-        <div style="margin: 25px;">
-            <fieldset>
-                <legend>------------------你觉得那张图主观效果更好------------------</legend>
-                <div>
-                    <form action="/service" method="post">
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend>------------------你觉得那张图主观效果更好------------------</legend>
+            <div>
+                <form action="/service" method="post">
 
-                        <label for="">当前</label>
-                        {# <label type="message" id="message" class="message"
-                            style="color: rgb(0, 0, 0);">{{now_case}}</label>#}
-                        <input type="message" value="{{now_case}}" name="message" required readonly="readonly" />
-                        <label><input type="radio" name="img_chosen" value="0" checked=true /> 图一</label>
-                        <label><input type="radio" name="img_chosen" value="1" /> 图二</label>
-                        <label><input type="radio" name="img_chosen" value="2" /> 差不多</label>
-                        <br>
-                        <button type="submit" class="buttonStyle">提交</button>
-                    </form>
-                </div>
-            </fieldset>
-        </div>
+                    <label for="">当前</label>
+                    {# <label type="message" id="message" class="message"
+                        style="color: rgb(0, 0, 0);">{{now_case}}</label>#}
+                    <input type="message" value="{{now_case}}" name="message" required readonly="readonly" />
+                    <label><input type="radio" name="img_chosen" value="0" checked=true /> 图一</label>
+                    <label><input type="radio" name="img_chosen" value="1" /> 图二</label>
+                    <label><input type="radio" name="img_chosen" value="2" /> 差不多</label>
+                    <br>
+                    <button type="submit" class="buttonStyle">提交</button>
+                </form>
+            </div>
+        </fieldset>
+    </div>
 
-        <div style="margin: 25px;">
-            <fieldset>
-                <legend>------------------基本信息------------------</legend>
-                <div>
-                    <p>用户名: {{user_name}}</p>
-                    <p>评价数据集: {{dataset_judge}}</p>
-                    <!-- <p>当前Case: {{now_case}}</p> -->
-                    <p>完成情况(完成数/总数): {{finish_num}} / {{full_num}}</p>
-                </div>
-            </fieldset>
-        </div>
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend>------------------基本信息------------------</legend>
+            <div>
+                <p>用户名: {{user_name}}</p>
+                <p>评价数据集: {{dataset_judge}}</p>
+                <!-- <p>当前Case: {{now_case}}</p> -->
+                <p>完成情况(完成数/总数): {{finish_num}} / {{full_num}}</p>
+            </div>
+        </fieldset>
+    </div>
 
-        <div style="margin: 25px;">
-            <fieldset>
-                <legend>------------------点击查看统计信息------------------</legend>
-                <div>
-                    <form action="/analyze" method="post">
-                        <button type="submit" class="buttonStyle">立即查看</button>
-                    </form>
-                </div>
-            </fieldset>
-        </div>
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend>------------------点击查看统计信息------------------</legend>
+            <div>
+                <form action="/analyze" method="post">
+                    <button type="submit" class="buttonStyle">立即查看</button>
+                </form>
+            </div>
+        </fieldset>
+    </div>
 
-        <div style="margin: 25px;">
-            <fieldset>
-                <legend>------------------逐图展示------------------</legend>
-                <div>
-                    <form action="/loopPic/show" method="get">
-                        <button type="submit" class="buttonStyle">立即查看</button>
-                    </form>
-                </div>
-            </fieldset>
-        </div>
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend>------------------逐图展示------------------</legend>
+            <div>
+                <form action="/loopPic/show" method="get">
+                    <button type="submit" class="buttonStyle">立即查看</button>
+                </form>
+            </div>
+        </fieldset>
+    </div>
 
-    </body>
+</body>
+<script type="text/javascript">
 
+
+    function getEventObject(W3CEvent) {            //事件标准化函数
+        return W3CEvent || window.event;
+    }
+
+    function getPointerPosition(e) {            //兼容浏览器的鼠标x,y获得函数
+        e = e || getEventObject(e);
+        var x = e.pageX || (e.clientX + (document.documentElement.scrollLeft || document.body.scrollLeft));
+        var y = e.pageY || (e.clientY + (document.documentElement.scrollTop || document.body.scrollTop));
+        return { 'x': x, 'y': y };
+    }
+
+    function setOpacity(elem, level) {            //兼容浏览器设置透明值
+        if (elem.filters) {
+            elem.style.filter = 'alpha(opacity=' + level * 100 + ')';
+        } else {
+            elem.style.opacity = level;
+        }
+    }
+
+    function css(elem, prop) {                //css设置函数,方便设置css值,并且兼容设置透明值
+        for (var i in prop) {
+            if (i == 'opacity') {
+                setOpacity(elem, prop[i]);
+            } else {
+                elem.style[i] = prop[i];
+            }
+        }
+        return elem;
+    }
+
+    var magnifier = {
+        m: null,
+
+        init: function (magni) {
+            var m = this.m = magni || {
+                cont: null,        //装载原始图像的div
+                mainDiv: null,
+                img: null,            //放大的图像
+                mag: null,            //放大框
+                scale: 10            //比例值,设置的值越大放大越大,但是这里有个问题就是如果不可以整除时,会产生些很小的白边,目前不知道如何解决
+            }
+
+            /*
+            指定放大后图片的大小
+            */
+            css(m.img, {
+                'position': 'relative',
+                'width': (m.mainDiv.clientWidth * m.scale) + 'px',                //原始图像的宽*比例值    
+                'height': (m.mainDiv.clientHeight * m.scale) + 'px'                //原始图像的高*比例值
+            })
+
+            /*
+            指定放大框的大小
+            */
+            css(m.mag, {
+                'display': '',
+                // 'width': m.mainDiv.clientWidth + 'px',            //m.cont为原始图像,与原始图像等宽
+                // 'height': m.mainDiv.clientHeight + 'px',
+                'position': 'relative',
+                // 'top': m.mainDiv.offsetTop + m.mainDiv.offsetHeight + m.mainDiv.offsetTop + 10 + 'px',        //放大框的位置为原始图像的右方远10px
+                // 'left': m.mainDiv.offsetLeft + 'px'   //放大框的位置与原始图像top相同
+            })
+
+            var borderWid = m.cont.getElementsByTagName('div')[0].offsetWidth - m.cont.getElementsByTagName('div')[0].clientWidth;        //获取border的宽
+
+            css(m.cont.getElementsByTagName('div')[0], {            //m.cont.getElementsByTagName('div')[0]为浏览框
+                'display': '',                                //开始设置为不可见
+                'width': m.cont.clientWidth / m.scale - borderWid + 'px',            //原始图片的宽/比例值 - border的宽度
+                'height': m.cont.clientHeight / m.scale - borderWid + 'px',        //原始图片的高/比例值 - border的宽度
+                'opacity': 0.5                    //设置透明度
+            })
+
+            m.img.src = m.cont.getElementsByTagName('img')[0].src;            //让原始图像的src值给予放大图像
+            m.cont.style.cursor = 'crosshair';  //滑动时鼠标为十字型
+
+            m.cont.onmouseover = magnifier.start;
+
+        },
+
+
+        /*
+    鼠标进入图片时触发
+    */
+        start: function (e) {
+            if (document.all) {                //只在IE下执行,主要避免IE6的select无法覆盖
+                //创建一个iframe，将放大的img放进去
+                magnifier.createIframe(magnifier.m.img);
+                magnifier1.createIframe(magnifier1.m.img);
+            }
+
+            this.onmousemove = magnifier.move;        //this指向m.cont
+            //this.onmouseout = magnifier.end;
+        },
+        /*
+   鼠标移动时触发
+   */
+        move: function (e) {
+            var pos = getPointerPosition(e);        //事件标准化
+
+            this.getElementsByTagName('div')[0].style.display = '';
+            Browser1.style.display = '';
+
+            css(this.getElementsByTagName('div')[0], {
+                'top': Math.min(Math.max(pos.y - this.offsetTop - parseInt(this.getElementsByTagName('div')[0].style.height) / 2 + parseFloat(this.getElementsByTagName('img')[0].offsetTop), parseFloat(this.getElementsByTagName('img')[0].offsetTop)), this.clientHeight - this.getElementsByTagName('div')[0].offsetHeight + parseFloat(this.getElementsByTagName('img')[0].offsetTop)) + 'px',
+
+                'left': Math.min(Math.max(pos.x - this.offsetLeft - parseInt(this.getElementsByTagName('div')[0].style.width) / 2 + parseFloat(this.getElementsByTagName('img')[0].offsetLeft), parseFloat(this.getElementsByTagName('img')[0].offsetLeft)), this.clientWidth - this.getElementsByTagName('div')[0].offsetWidth + parseFloat(this.getElementsByTagName('img')[0].offsetLeft)) + 'px'
+                //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
+            })
+
+            // console.log(this.getElementsByTagName('img'))
+
+            // css(Browser1, {
+            //     'top': Math.min(Math.max(pos.y - this.offsetTop - parseInt(this.getElementsByTagName('div')[0].style.height) / 2, 0), this.clientHeight - this.getElementsByTagName('div')[0].offsetHeight) + 'px',
+            //     'left': Math.min(Math.max(pos.x - this.offsetLeft - parseInt(this.getElementsByTagName('div')[0].style.width) / 2, 0), this.clientWidth - this.getElementsByTagName('div')[0].offsetWidth) + 'px'
+            //     //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
+            // })
+
+            // css(Browser1, {
+            //     'top': Math.min(Math.max(pos.y - this.offsetTop - parseInt(this.getElementsByTagName('div')[0].style.height) / 2, 0), this.clientHeight - this.getElementsByTagName('div')[0].offsetHeight) + 'px',
+            //     'left': parseFloat(parseFloat(this.getElementsByTagName('div')[0].style.left) + parseFloat(document.body.clientWidth ) * 0.51) + 'px',
+            //     //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
+            // })
+            css(Browser1, {
+                'top': parseFloat(this.getElementsByTagName('div')[0].style.top) + 'px',
+                'left': parseFloat(parseFloat(this.getElementsByTagName('div')[0].style.left) + parseFloat(document.body.clientWidth) * 0.51) + 'px',
+                //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
+            })
+            // console.log(parseFloat(this.getElementsByTagName('Browser')[0].offsetTop))
+
+
+            //显示出黑框
+            magnifier.m.mag.style.display = '';
+            magnifier1.m.mag.style.display = '';
+
+
+
+            /*
+       改变右侧图的显示
+       */
+            css(magnifier.m.img, {
+                'top': - ((parseFloat(this.getElementsByTagName('div')[0].style.top) - parseFloat(this.getElementsByTagName('img')[0].offsetTop)) * magnifier.m.scale) + 'px',
+                'left': -((parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(this.getElementsByTagName('img')[0].offsetLeft)) * magnifier.m.scale) + 'px'
+                //'left':'-200px',  //图片向左移动200px
+                //'top':'500px'
+            })
+
+            // console.log((parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(this.getElementsByTagName('img')[0].offsetLeft)))
+
+
+            css(magnifier1.m.img, {
+                'top': - ((parseFloat(this.getElementsByTagName('div')[0].style.top) - parseFloat(this.getElementsByTagName('img')[0].offsetTop)) * magnifier.m.scale) + 'px',
+                'left': -((parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(this.getElementsByTagName('img')[0].offsetLeft)) * magnifier.m.scale) + 'px'
+                //'left':'-200px',  //图片向左移动200px
+                //'top':'500px'
+            })
+
+            console.log('left' + parseFloat(this.getElementsByTagName('div')[0].style.top) + ',' + parseFloat(this.getElementsByTagName('img')[0].offsetTop))
+
+
+        },
+        /*
+   鼠标离开时触发
+   */
+        end: function (e) {
+            this.getElementsByTagName('div')[0].style.display = '';//div Browser   //鼠标所在的黑框
+            magnifier.removeIframe(magnifier.m.img);        //销毁iframe
+            magnifier.m.mag.style.display = '';   //div mag //放大的图片
+
+            Browser1.style.display = '';//div Browser   //鼠标所在的黑框
+            magnifier1.removeIframe(magnifier.m.img);        //销毁iframe
+            magnifier1.m.mag.style.display = '';   //div mag //放大的图片
+        },
+
+        /*
+        鼠标进入时触发
+        */
+        createIframe: function (elem) {
+            var layer = document.createElement('iframe');
+            layer.tabIndex = '-1';
+            layer.src = 'javascript:false;';
+            elem.parentNode.appendChild(layer);
+
+            layer.style.width = elem.offsetWidth + 'px';
+            layer.style.height = elem.offsetHeight + 'px';
+        },
+        /*
+    鼠标离开时触发
+    */
+        removeIframe: function (elem) {
+            var layers = elem.parentNode.getElementsByTagName('iframe');
+            while (layers.length > 0) {
+                layers[0].parentNode.removeChild(layers[0]);
+            }
+        }
+    }
+
+    var magnifier1 = {
+        m: null,
+
+        init: function (magni) {
+            var m = this.m = magni || {
+                cont: null,        //装载原始图像的div
+                mainDiv: null,
+                img: null,            //放大的图像
+                mag: null,            //放大框
+                scale: 15            //比例值,设置的值越大放大越大,但是这里有个问题就是如果不可以整除时,会产生些很小的白边,目前不知道如何解决
+            }
+
+
+            /*
+            指定放大后图片的大小
+            */
+            css(m.img, {
+                'position': 'absolute',
+                'width': (m.mainDiv.clientWidth * m.scale) + 'px',                //原始图像的宽*比例值    
+                'height': (m.mainDiv.clientHeight * m.scale) + 'px'                //原始图像的高*比例值
+            })
+
+            /*
+            指定放大框的大小
+            */
+            css(m.mag, {
+                'display': '',
+                // 'width': m.mainDiv.clientWidth + 'px',            //m.cont为原始图像,与原始图像等宽
+                // 'height': m.mainDiv.clientHeight + 'px',
+                'position': 'relative',
+                // 'top': m.mainDiv.offsetTop + m.mainDiv.offsetHeight + m.mainDiv.offsetTop + 10 + 'px',        //放大框的位置为原始图像的右方远10px
+                // 'left': m.mainDiv.offsetLeft + 'px'   //放大框的位置与原始图像top相同
+            })
+
+            var borderWid = m.cont.getElementsByTagName('div')[0].offsetWidth - m.cont.getElementsByTagName('div')[0].clientWidth;        //获取border的宽
+
+            css(m.cont.getElementsByTagName('div')[0], {            //m.cont.getElementsByTagName('div')[0]为浏览框
+                'display': '',                                //开始设置为不可见
+                'width': m.cont.clientWidth / m.scale - borderWid + 'px',            //原始图片的宽/比例值 - border的宽度
+                'height': m.cont.clientHeight / m.scale - borderWid + 'px',        //原始图片的高/比例值 - border的宽度
+                'opacity': 0.5                    //设置透明度
+            })
+
+            m.img.src = m.cont.getElementsByTagName('img')[0].src;            //让原始图像的src值给予放大图像
+            m.cont.style.cursor = 'crosshair';  //滑动时鼠标为十字型
+
+            m.cont.onmouseover = magnifier1.start;
+
+        },
+
+
+        /*
+    鼠标进入图片时触发
+    */
+        start: function (e) {
+            if (document.all) {                //只在IE下执行,主要避免IE6的select无法覆盖
+                //创建一个iframe，将放大的img放进去
+                magnifier.createIframe(magnifier.m.img);
+                magnifier1.createIframe(magnifier1.m.img);
+            }
+
+            this.onmousemove = magnifier1.move;        //this指向m.cont
+            //this.onmouseout = magnifier.end;
+        },
+        /*
+   鼠标移动时触发
+   */
+        move: function (e) {
+            var pos = getPointerPosition(e);        //事件标准化
+
+            this.getElementsByTagName('div')[0].style.display = '';
+            Browser.style.display = '';
+            //确定broswer的显示范围
+
+            css(this.getElementsByTagName('div')[0], {
+                'top': Math.min(Math.max(pos.y - this.offsetTop - parseInt(this.getElementsByTagName('div')[0].style.height) / 2 + parseFloat(this.getElementsByTagName('img')[0].offsetTop), parseFloat(this.getElementsByTagName('img')[0].offsetTop)), this.clientHeight - this.getElementsByTagName('div')[0].offsetHeight + parseFloat(this.getElementsByTagName('img')[0].offsetTop)) + 'px',
+
+                'left': Math.min(Math.max(pos.x - this.offsetLeft - parseInt(this.getElementsByTagName('div')[0].style.width) / 2 + parseFloat(this.getElementsByTagName('img')[0].offsetLeft), parseFloat(this.getElementsByTagName('img')[0].offsetLeft)), this.clientWidth - this.getElementsByTagName('div')[0].offsetWidth + parseFloat(this.getElementsByTagName('img')[0].offsetLeft)) + 'px'
+                //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
+            })
+
+            css(Browser, {
+                'top': parseFloat(this.getElementsByTagName('div')[0].style.top) + 'px',
+                'left': parseFloat(parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(document.body.clientWidth) * 0.51) + 'px',
+                //当鼠标在图片中过左位置时，会用Math.max来限制   当在过右位置时，会用 Math.min来限制
+            })
+
+
+            //显示出黑框
+            magnifier.m.mag.style.display = '';
+            magnifier1.m.mag.style.display = '';
+
+
+
+            /*
+       改变右侧图的显示
+       */
+            css(magnifier.m.img, {
+                'top': - ((parseFloat(Browser.style.top) - parseFloat(magnifier.m.mainDiv.offsetTop)) * magnifier.m.scale) + 'px',
+                'left': -((parseFloat(Browser.style.left) - parseFloat(magnifier.m.mainDiv.offsetLeft)) * magnifier.m.scale) + 'px'
+                //'left':'-200px',  //图片向左移动200px
+                //'top':'500px'
+            })
+
+            // console.log((parseFloat(this.getElementsByTagName('div')[0].style.left) - parseFloat(this.getElementsByTagName('img')[0].offsetLeft)))
+
+
+            css(magnifier1.m.img, {
+                'top': - ((parseFloat(Browser.style.top) - parseFloat(magnifier.m.mainDiv.offsetTop)) * magnifier.m.scale) + 'px',
+                'left': -((parseFloat(Browser.style.left) - parseFloat(magnifier.m.mainDiv.offsetLeft)) * magnifier.m.scale) + 'px'
+                //'left':'-200px',  //图片向左移动200px
+                //'top':'500px'
+            })
+
+            console.log('left' + parseFloat(Browser.style.top) + ',' + parseFloat(magnifier.m.mainDiv.offsetTop))
+
+
+
+        },
+        /*
+   鼠标离开时触发
+   */
+        end: function (e) {
+            this.getElementsByTagName('div')[0].style.display = '';//div Browser   //鼠标所在的黑框
+            magnifier.removeIframe(magnifier.m.img);        //销毁iframe
+            magnifier.m.mag.style.display = '';   //div mag //放大的图片
+
+            Browser1.style.display = '';//div Browser   //鼠标所在的黑框
+            magnifier1.removeIframe(magnifier1.m.img);        //销毁iframe
+            magnifier1.m.mag.style.display = '';   //div mag //放大的图片
+        },
+
+        /*
+        鼠标进入时触发
+        */
+        createIframe: function (elem) {
+            var layer = document.createElement('iframe');
+            layer.tabIndex = '-1';
+            layer.src = 'javascript:false;';
+            elem.parentNode.appendChild(layer);
+
+            layer.style.width = elem.offsetWidth + 'px';
+            layer.style.height = elem.offsetHeight + 'px';
+        },
+        /*
+    鼠标离开时触发
+    */
+        removeIframe: function (elem) {
+            var layers = elem.parentNode.getElementsByTagName('iframe');
+            while (layers.length > 0) {
+                layers[0].parentNode.removeChild(layers[0]);
+            }
+        }
+    }
+
+    function loadBody(message) {
+        if (message.length !== 0) {
+            alert(message)
+        }
+
+    }
+
+    var message = document.getElementById('message').innerHTML;
+
+    window.onload = function () {
+        // console.log({{load_info}})
+        // if (message.length !== 0) {
+        //     alert(message)
+        // }
+        magnifier.init({
+            cont: document.getElementById('magnifier'),
+            mainDiv: document.getElementById('left'),
+            img: document.getElementById('magnifierImg'),
+            mag: document.getElementById('mag'),
+            scale: 3
+        });
+
+        magnifier1.init({
+            cont: document.getElementById('magnifier1'),
+            mainDiv: document.getElementById('right'),
+            img: document.getElementById('magnifierImg1'),
+            mag: document.getElementById('mag1'),
+            scale: 3
+        });
+
+        console.log(message)
+
+        if (message.length >= 2 & message !== 'None') {
+            alert(message)
+        }
+    }
+
+</script>
 </html>

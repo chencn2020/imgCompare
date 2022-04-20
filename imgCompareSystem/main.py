@@ -7,9 +7,9 @@ from utils import compareImgDatabase as CID
 import random
 import string
 
-compareImgDatabase = 'test1'
+# compareImgDatabase = 'test1'
 # compareImgDatabase = 'TinyISP_ResizeCrop61_TIQA_20k'
-# compareImgDatabase = 'TinyISP_Crop61_SSIMOnly_20k'
+compareImgDatabase = 'TinyISP_Crop61_SSIMOnly_20k'
 print('测试数据集：', compareImgDatabase)
 app = Flask(__name__, static_folder='', static_url_path='')
 checkUser = checkUseInfo.checkUserInfo()
@@ -72,7 +72,7 @@ def loopPic(choice):
         if request.method == "GET":
             [nowCase, img1, img2, res] = compareDB.get_a_not_finish_case(userName)
             if nowCase is not None:
-                load_info = "alert('请完成全部Case后再查看')"
+                load_info = "请完成全部Case后再查看"
                 return redirect('/service')
         elif request.method == 'POST':
             if choice == 'next':
@@ -112,10 +112,10 @@ def server():
                 tempInfo = load_info
                 load_info = None
             else:
-                tempInfo = "alert('所有case均已完成')"
+                tempInfo = "所有case均已完成"
             return render_template("imgCompareSystemMainUI.html", user_name=userName, dataset_judge=compareImgDatabase,
                                    now_case=nowCase, finish_num=finish_num, full_num=full_num, img1=img1, img2=img2,
-                                   load_info=tempInfo)
+                                   info=tempInfo)
         elif request.method == "POST":
             img_chosen = request.values['img_chosen']
             case_name = request.form.get('message')
@@ -130,7 +130,7 @@ def server():
             res = compareDB.update_choice(case_name, userName, isGt)
             imgInfoCookie[userName + case_name] = None
             if res:
-                load_info = "alert('提交完成，等待系统继续分配')"
+                load_info = "提交完成，等待系统继续分配"
                 return redirect('/service')
     print('用户登录过期')
     return render_template('index.html', info="登录过期，请重新登录")
