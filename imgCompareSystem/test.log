@@ -5620,3 +5620,193 @@ piRes 4,0,2!4,0,2!4,1,1!3,0,3!2,1,3!1,4,1!1,4,1!2,3,1!1,0,5!2,0,4!1,1,4!5,0,1!2,
 10.1.25.213 - - [19/Apr/2022 09:28:49] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
 10.1.25.213 - - [19/Apr/2022 09:28:49] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
 10.1.25.213 - - [19/Apr/2022 09:28:49] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:13] "GET / HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:02:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:13] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:13] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:13] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:02:19] "[31m[1mPOST / HTTP/1.1[0m" 400 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "GET / HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:02:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:02:41] "[31m[1mPOST / HTTP/1.1[0m" 400 -
+10.11.4.244 - - [19/Apr/2022 10:17:34] "GET / HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:17:34] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:34] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:34] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+用户wj登录True
+10.11.4.244 - - [19/Apr/2022 10:17:36] "[32mPOST / HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+10.11.4.244 - - [19/Apr/2022 10:17:36] "GET /service HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:17:36] "[33mGET /None HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:17:36] "[33mGET /None HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:17:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:36] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:36] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:36] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} show
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(1,), (1,), (1,), (0,), (2,), (1,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:17:41] "GET /loopPic/show HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:17:41] "[36mGET /source/ImgTest/TinyISP_ResizeCrop61_TIQA_20k/Case17/Case17_GT.bmp HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:41] "[36mGET /source/ImgTest/TinyISP_ResizeCrop61_TIQA_20k/Case17/Case17_Pred.bmp HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:17:41] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:17:41] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:17:41] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:17:41] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_GT.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:17:41] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_Pred.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:17:41] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:17:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} next
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(1,), (1,), (0,), (0,), (2,), (1,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case22/Case22_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case22/Case22_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:17:58] "POST /loopPic/next HTTP/1.1" 200 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(1,), (1,), (1,), (0,), (2,), (1,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:18:03] "POST /loopPic/pre HTTP/1.1" 200 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(1,), (1,), (1,), (0,), (2,), (1,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:19:30] "GET /loopPic/pre HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:19:30] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:19:30] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:19:30] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_Pred.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:19:31] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case19/Case19_GT.png HTTP/1.1" 200 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(1,), (1,), (1,), (0,), (2,), (1,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case16/Case16_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case16/Case16_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:19:32] "POST /loopPic/pre HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:19:32] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:19:32] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:19:32] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case16/Case16_GT.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:19:32] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case16/Case16_Pred.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:19:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(2,), (2,), (1,), (0,), (2,), (0,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case13/Case13_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case13/Case13_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:19:45] "POST /loopPic/pre HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:19:45] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:19:45] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:19:45] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case13/Case13_GT.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:19:45] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case13/Case13_Pred.png HTTP/1.1" 200 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(0,), (2,), (0,), (2,), (0,), (2,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case10/Case10_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case10/Case10_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:20:20] "POST /loopPic/pre HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:20:20] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:20] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:20] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case10/Case10_GT.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:20:20] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case10/Case10_Pred.png HTTP/1.1" 200 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(0,), (0,), (0,), (2,), (2,), (0,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:20:31] "POST /loopPic/pre HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:20:31] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:31] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:31] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_GT.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:20:31] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_Pred.png HTTP/1.1" 200 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} next
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(0,), (2,), (0,), (2,), (0,), (2,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case10/Case10_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case10/Case10_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:20:33] "POST /loopPic/next HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:20:33] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:33] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:33] "[36mGET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case10/Case10_Pred.png HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:20:33] "[36mGET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case10/Case10_GT.png HTTP/1.1[0m" 304 -
+10.11.4.244 - - [19/Apr/2022 10:20:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(0,), (0,), (0,), (2,), (2,), (0,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:20:48] "POST /loopPic/pre HTTP/1.1" 200 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(0,), (0,), (0,), (2,), (2,), (0,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:20:51] "GET /loopPic/pre HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:20:51] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:51] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:51] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_GT.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:20:51] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:20:51] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_Pred.png HTTP/1.1" 200 -
+5kUtUKoL2jt {'czw': '4S78tmEKtVj', 'zxz': 'rfNiZJ1a6Pa', 'lr': 'KzUKHt3lSiR', 'wj': '5kUtUKoL2jt', 'qhn': 'hACmdmy3afU', 'cmx': 'VoDQsHYEIW6'} pre
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+analyse_res [(0,), (1,), (0,), (2,), (0,), (0,)]
+../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case7/Case7_GT.png ../source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case7/Case7_Pred.png
+10.11.4.244 - - [19/Apr/2022 10:21:00] "POST /loopPic/pre HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:00] "[33mGET /loopPic/static/css/style.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:21:00] "[33mGET /loopPic/static/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+10.11.4.244 - - [19/Apr/2022 10:21:00] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case7/Case7_Pred.png HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:00] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case7/Case7_GT.png HTTP/1.1" 200 -
+analyse_res ['Case1,cmx,否,0', 'Case1,czw,否,0', 'Case1,lr,否,0', 'Case1,qhn,差不多,0', 'Case1,wj,差不多,0', 'Case1,zxz,否,0', 'Case10,cmx,否,0', 'Case10,czw,差不多,0', 'Case10,lr,否,0', 'Case10,qhn,差不多,0', 'Case10,wj,否,0', 'Case10,zxz,差不多,0', 'Case13,cmx,差不多,0', 'Case13,czw,差不多,0', 'Case13,lr,是,0', 'Case13,qhn,否,0', 'Case13,wj,差不多,0', 'Case13,zxz,否,0', 'Case16,cmx,是,0', 'Case16,czw,是,0', 'Case16,lr,是,0', 'Case16,qhn,否,0', 'Case16,wj,差不多,0', 'Case16,zxz,是,0', 'Case19,cmx,是,0', 'Case19,czw,是,0', 'Case19,lr,是,0', 'Case19,qhn,否,0', 'Case19,wj,差不多,0', 'Case19,zxz,是,0', 'Case22,cmx,是,0', 'Case22,czw,是,0', 'Case22,lr,否,0', 'Case22,qhn,否,0', 'Case22,wj,差不多,0', 'Case22,zxz,是,0', 'Case25,cmx,差不多,0', 'Case25,czw,差不多,0', 'Case25,lr,否,0', 'Case25,qhn,差不多,0', 'Case25,wj,差不多,0', 'Case25,zxz,差不多,0', 'Case28,cmx,差不多,0', 'Case28,czw,差不多,0', 'Case28,lr,否,0', 'Case28,qhn,差不多,0', 'Case28,wj,差不多,0', 'Case28,zxz,否,0', 'Case31,cmx,否,0', 'Case31,czw,差不多,0', 'Case31,lr,差不多,0', 'Case31,qhn,是,0', 'Case31,wj,差不多,0', 'Case31,zxz,差不多,0', 'Case34,cmx,否,0', 'Case34,czw,否,0', 'Case34,lr,否,0', 'Case34,qhn,否,0', 'Case34,wj,差不多,0', 'Case34,zxz,否,0', 'Case37,cmx,差不多,0', 'Case37,czw,差不多,0', 'Case37,lr,差不多,0', 'Case37,qhn,否,0', 'Case37,wj,差不多,0', 'Case37,zxz,否,0', 'Case4,cmx,否,0', 'Case4,czw,差不多,0', 'Case4,lr,否,0', 'Case4,qhn,否,0', 'Case4,wj,差不多,0', 'Case4,zxz,否,0', 'Case40,cmx,差不多,0', 'Case40,czw,否,0', 'Case40,lr,否,0', 'Case40,qhn,否,0', 'Case40,wj,差不多,0', 'Case40,zxz,差不多,0', 'Case43,cmx,是,0', 'Case43,czw,是,0', 'Case43,lr,是,0', 'Case43,qhn,差不多,0', 'Case43,wj,差不多,0', 'Case43,zxz,否,0', 'Case46,cmx,否,0', 'Case46,czw,否,0', 'Case46,lr,是,0', 'Case46,qhn,否,0', 'Case46,wj,差不多,0', 'Case46,zxz,是,0', 'Case49,cmx,否,0', 'Case49,czw,差不多,0', 'Case49,lr,是,0', 'Case49,qhn,否,0', 'Case49,wj,是,0', 'Case49,zxz,差不多,0', 'Case52,cmx,差不多,0', 'Case52,czw,差不多,0', 'Case52,lr,否,0', 'Case52,qhn,差不多,0', 'Case52,wj,差不多,0', 'Case52,zxz,是,0', 'Case55,cmx,差不多,0', 'Case55,czw,差不多,0', 'Case55,lr,是,0', 'Case55,qhn,否,0', 'Case55,wj,差不多,0', 'Case55,zxz,否,0', 'Case58,cmx,差不多,0', 'Case58,czw,差不多,0', 'Case58,lr,是,0', 'Case58,qhn,差不多,0', 'Case58,wj,差不多,0', 'Case58,zxz,否,0', 'Case61,cmx,差不多,0', 'Case61,czw,差不多,0', 'Case61,lr,是,0', 'Case61,qhn,否,0', 'Case61,wj,差不多,0', 'Case61,zxz,否,0', 'Case7,cmx,否,0', 'Case7,czw,是,0', 'Case7,lr,否,0', 'Case7,qhn,差不多,0', 'Case7,wj,否,0', 'Case7,zxz,否,0', 'Case1,未选GT:4,选择GT:0,差不多:2', 'Case10,未选GT:3,选择GT:0,差不多:3', 'Case13,未选GT:2,选择GT:1,差不多:3', 'Case16,未选GT:1,选择GT:4,差不多:1', 'Case19,未选GT:1,选择GT:4,差不多:1', 'Case22,未选GT:2,选择GT:3,差不多:1', 'Case25,未选GT:1,选择GT:0,差不多:5', 'Case28,未选GT:2,选择GT:0,差不多:4', 'Case31,未选GT:1,选择GT:1,差不多:4', 'Case34,未选GT:5,选择GT:0,差不多:1', 'Case37,未选GT:2,选择GT:0,差不多:4', 'Case4,未选GT:4,选择GT:0,差不多:2', 'Case40,未选GT:3,选择GT:0,差不多:3', 'Case43,未选GT:1,选择GT:3,差不多:2', 'Case46,未选GT:3,选择GT:2,差不多:1', 'Case49,未选GT:2,选择GT:2,差不多:2', 'Case52,未选GT:1,选择GT:1,差不多:4', 'Case55,未选GT:2,选择GT:1,差不多:3', 'Case58,未选GT:1,选择GT:1,差不多:4', 'Case61,未选GT:2,选择GT:1,差不多:3', 'Case7,未选GT:4,选择GT:1,差不多:1']
+analyse_res [[1, [4, 0, 2]], [4, [4, 0, 2]], [7, [4, 1, 1]], [10, [3, 0, 3]], [13, [2, 1, 3]], [16, [1, 4, 1]], [19, [1, 4, 1]], [22, [2, 3, 1]], [25, [1, 0, 5]], [28, [2, 0, 4]], [31, [1, 1, 4]], [34, [5, 0, 1]], [37, [2, 0, 4]], [40, [3, 0, 3]], [43, [1, 3, 2]], [46, [3, 2, 1]], [49, [2, 2, 2]], [52, [1, 1, 4]], [55, [2, 1, 3]], [58, [1, 1, 4]], [61, [2, 1, 3]]]
+res Case1,cmx,否,0!Case1,czw,否,0!Case1,lr,否,0!Case1,qhn,差不多,0!Case1,wj,差不多,0!Case1,zxz,否,0!Case10,cmx,否,0!Case10,czw,差不多,0!Case10,lr,否,0!Case10,qhn,差不多,0!Case10,wj,否,0!Case10,zxz,差不多,0!Case13,cmx,差不多,0!Case13,czw,差不多,0!Case13,lr,是,0!Case13,qhn,否,0!Case13,wj,差不多,0!Case13,zxz,否,0!Case16,cmx,是,0!Case16,czw,是,0!Case16,lr,是,0!Case16,qhn,否,0!Case16,wj,差不多,0!Case16,zxz,是,0!Case19,cmx,是,0!Case19,czw,是,0!Case19,lr,是,0!Case19,qhn,否,0!Case19,wj,差不多,0!Case19,zxz,是,0!Case22,cmx,是,0!Case22,czw,是,0!Case22,lr,否,0!Case22,qhn,否,0!Case22,wj,差不多,0!Case22,zxz,是,0!Case25,cmx,差不多,0!Case25,czw,差不多,0!Case25,lr,否,0!Case25,qhn,差不多,0!Case25,wj,差不多,0!Case25,zxz,差不多,0!Case28,cmx,差不多,0!Case28,czw,差不多,0!Case28,lr,否,0!Case28,qhn,差不多,0!Case28,wj,差不多,0!Case28,zxz,否,0!Case31,cmx,否,0!Case31,czw,差不多,0!Case31,lr,差不多,0!Case31,qhn,是,0!Case31,wj,差不多,0!Case31,zxz,差不多,0!Case34,cmx,否,0!Case34,czw,否,0!Case34,lr,否,0!Case34,qhn,否,0!Case34,wj,差不多,0!Case34,zxz,否,0!Case37,cmx,差不多,0!Case37,czw,差不多,0!Case37,lr,差不多,0!Case37,qhn,否,0!Case37,wj,差不多,0!Case37,zxz,否,0!Case4,cmx,否,0!Case4,czw,差不多,0!Case4,lr,否,0!Case4,qhn,否,0!Case4,wj,差不多,0!Case4,zxz,否,0!Case40,cmx,差不多,0!Case40,czw,否,0!Case40,lr,否,0!Case40,qhn,否,0!Case40,wj,差不多,0!Case40,zxz,差不多,0!Case43,cmx,是,0!Case43,czw,是,0!Case43,lr,是,0!Case43,qhn,差不多,0!Case43,wj,差不多,0!Case43,zxz,否,0!Case46,cmx,否,0!Case46,czw,否,0!Case46,lr,是,0!Case46,qhn,否,0!Case46,wj,差不多,0!Case46,zxz,是,0!Case49,cmx,否,0!Case49,czw,差不多,0!Case49,lr,是,0!Case49,qhn,否,0!Case49,wj,是,0!Case49,zxz,差不多,0!Case52,cmx,差不多,0!Case52,czw,差不多,0!Case52,lr,否,0!Case52,qhn,差不多,0!Case52,wj,差不多,0!Case52,zxz,是,0!Case55,cmx,差不多,0!Case55,czw,差不多,0!Case55,lr,是,0!Case55,qhn,否,0!Case55,wj,差不多,0!Case55,zxz,否,0!Case58,cmx,差不多,0!Case58,czw,差不多,0!Case58,lr,是,0!Case58,qhn,差不多,0!Case58,wj,差不多,0!Case58,zxz,否,0!Case61,cmx,差不多,0!Case61,czw,差不多,0!Case61,lr,是,0!Case61,qhn,否,0!Case61,wj,差不多,0!Case61,zxz,否,0!Case7,cmx,否,0!Case7,czw,是,0!Case7,lr,否,0!Case7,qhn,差不多,0!Case7,wj,否,0!Case7,zxz,否,0!Case1,未选GT:4,选择GT:0,差不多:2!Case10,未选GT:3,选择GT:0,差不多:3!Case13,未选GT:2,选择GT:1,差不多:3!Case16,未选GT:1,选择GT:4,差不多:1!Case19,未选GT:1,选择GT:4,差不多:1!Case22,未选GT:2,选择GT:3,差不多:1!Case25,未选GT:1,选择GT:0,差不多:5!Case28,未选GT:2,选择GT:0,差不多:4!Case31,未选GT:1,选择GT:1,差不多:4!Case34,未选GT:5,选择GT:0,差不多:1!Case37,未选GT:2,选择GT:0,差不多:4!Case4,未选GT:4,选择GT:0,差不多:2!Case40,未选GT:3,选择GT:0,差不多:3!Case43,未选GT:1,选择GT:3,差不多:2!Case46,未选GT:3,选择GT:2,差不多:1!Case49,未选GT:2,选择GT:2,差不多:2!Case52,未选GT:1,选择GT:1,差不多:4!Case55,未选GT:2,选择GT:1,差不多:3!Case58,未选GT:1,选择GT:1,差不多:4!Case61,未选GT:2,选择GT:1,差不多:3!Case7,未选GT:4,选择GT:1,差不多:1
+piRes 4,0,2!4,0,2!4,1,1!3,0,3!2,1,3!1,4,1!1,4,1!2,3,1!1,0,5!2,0,4!1,1,4!5,0,1!2,0,4!3,0,3!1,3,2!3,2,1!2,2,2!1,1,4!2,1,3!1,1,4!2,1,3
+10.11.4.244 - - [19/Apr/2022 10:21:14] "POST /analyze HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:14] "GET /static/css/fontawesome.min.css HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:14] "GET /static/css/templatemo-style.css HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:14] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:14] "GET /static/js/moment.min.js HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:14] "GET /static/js/Chart.min.js HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:14] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:14] "GET /static/js/tooplate-scripts.js HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:14] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:15] "GET /static/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:15] "GET /static/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 -
+10.11.4.244 - - [19/Apr/2022 10:21:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10.1.25.243 - - [19/Apr/2022 16:36:51] "GET / HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 16:36:51] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 16:36:51] "GET /static/css/style.css HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 16:36:51] "GET /static/images/m.jpg HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 16:36:51] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 16:36:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+用户lb登录True
+10.1.25.243 - - [19/Apr/2022 16:37:59] "[32mPOST / HTTP/1.1[0m" 302 -
+get_a_not_finish_case []
+get_a_not_finish_case ['Case1', 'Case10', 'Case13', 'Case16', 'Case19', 'Case22', 'Case25', 'Case28', 'Case31', 'Case34', 'Case37', 'Case4', 'Case40', 'Case43', 'Case46', 'Case49', 'Case52', 'Case55', 'Case58', 'Case61', 'Case7']
+10.1.25.243 - - [19/Apr/2022 16:38:00] "GET /service HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 16:38:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+10.1.25.243 - - [19/Apr/2022 16:38:00] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+10.1.25.243 - - [19/Apr/2022 16:38:00] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_Pred.png HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 16:38:00] "GET /source/ImgTest/TinyISP_Crop61_SSIMOnly_20k/Case1/Case1_GT.png HTTP/1.1" 200 -
+analyse_res ['Case1,cmx,否,0', 'Case1,czw,否,0', 'Case1,lr,否,0', 'Case1,qhn,差不多,0', 'Case1,wj,差不多,0', 'Case1,zxz,否,0', 'Case10,cmx,否,0', 'Case10,czw,差不多,0', 'Case10,lr,否,0', 'Case10,qhn,差不多,0', 'Case10,wj,否,0', 'Case10,zxz,差不多,0', 'Case13,cmx,差不多,0', 'Case13,czw,差不多,0', 'Case13,lr,是,0', 'Case13,qhn,否,0', 'Case13,wj,差不多,0', 'Case13,zxz,否,0', 'Case16,cmx,是,0', 'Case16,czw,是,0', 'Case16,lr,是,0', 'Case16,qhn,否,0', 'Case16,wj,差不多,0', 'Case16,zxz,是,0', 'Case19,cmx,是,0', 'Case19,czw,是,0', 'Case19,lr,是,0', 'Case19,qhn,否,0', 'Case19,wj,差不多,0', 'Case19,zxz,是,0', 'Case22,cmx,是,0', 'Case22,czw,是,0', 'Case22,lr,否,0', 'Case22,qhn,否,0', 'Case22,wj,差不多,0', 'Case22,zxz,是,0', 'Case25,cmx,差不多,0', 'Case25,czw,差不多,0', 'Case25,lr,否,0', 'Case25,qhn,差不多,0', 'Case25,wj,差不多,0', 'Case25,zxz,差不多,0', 'Case28,cmx,差不多,0', 'Case28,czw,差不多,0', 'Case28,lr,否,0', 'Case28,qhn,差不多,0', 'Case28,wj,差不多,0', 'Case28,zxz,否,0', 'Case31,cmx,否,0', 'Case31,czw,差不多,0', 'Case31,lr,差不多,0', 'Case31,qhn,是,0', 'Case31,wj,差不多,0', 'Case31,zxz,差不多,0', 'Case34,cmx,否,0', 'Case34,czw,否,0', 'Case34,lr,否,0', 'Case34,qhn,否,0', 'Case34,wj,差不多,0', 'Case34,zxz,否,0', 'Case37,cmx,差不多,0', 'Case37,czw,差不多,0', 'Case37,lr,差不多,0', 'Case37,qhn,否,0', 'Case37,wj,差不多,0', 'Case37,zxz,否,0', 'Case4,cmx,否,0', 'Case4,czw,差不多,0', 'Case4,lr,否,0', 'Case4,qhn,否,0', 'Case4,wj,差不多,0', 'Case4,zxz,否,0', 'Case40,cmx,差不多,0', 'Case40,czw,否,0', 'Case40,lr,否,0', 'Case40,qhn,否,0', 'Case40,wj,差不多,0', 'Case40,zxz,差不多,0', 'Case43,cmx,是,0', 'Case43,czw,是,0', 'Case43,lr,是,0', 'Case43,qhn,差不多,0', 'Case43,wj,差不多,0', 'Case43,zxz,否,0', 'Case46,cmx,否,0', 'Case46,czw,否,0', 'Case46,lr,是,0', 'Case46,qhn,否,0', 'Case46,wj,差不多,0', 'Case46,zxz,是,0', 'Case49,cmx,否,0', 'Case49,czw,差不多,0', 'Case49,lr,是,0', 'Case49,qhn,否,0', 'Case49,wj,是,0', 'Case49,zxz,差不多,0', 'Case52,cmx,差不多,0', 'Case52,czw,差不多,0', 'Case52,lr,否,0', 'Case52,qhn,差不多,0', 'Case52,wj,差不多,0', 'Case52,zxz,是,0', 'Case55,cmx,差不多,0', 'Case55,czw,差不多,0', 'Case55,lr,是,0', 'Case55,qhn,否,0', 'Case55,wj,差不多,0', 'Case55,zxz,否,0', 'Case58,cmx,差不多,0', 'Case58,czw,差不多,0', 'Case58,lr,是,0', 'Case58,qhn,差不多,0', 'Case58,wj,差不多,0', 'Case58,zxz,否,0', 'Case61,cmx,差不多,0', 'Case61,czw,差不多,0', 'Case61,lr,是,0', 'Case61,qhn,否,0', 'Case61,wj,差不多,0', 'Case61,zxz,否,0', 'Case7,cmx,否,0', 'Case7,czw,是,0', 'Case7,lr,否,0', 'Case7,qhn,差不多,0', 'Case7,wj,否,0', 'Case7,zxz,否,0', 'Case1,未选GT:4,选择GT:0,差不多:2', 'Case10,未选GT:3,选择GT:0,差不多:3', 'Case13,未选GT:2,选择GT:1,差不多:3', 'Case16,未选GT:1,选择GT:4,差不多:1', 'Case19,未选GT:1,选择GT:4,差不多:1', 'Case22,未选GT:2,选择GT:3,差不多:1', 'Case25,未选GT:1,选择GT:0,差不多:5', 'Case28,未选GT:2,选择GT:0,差不多:4', 'Case31,未选GT:1,选择GT:1,差不多:4', 'Case34,未选GT:5,选择GT:0,差不多:1', 'Case37,未选GT:2,选择GT:0,差不多:4', 'Case4,未选GT:4,选择GT:0,差不多:2', 'Case40,未选GT:3,选择GT:0,差不多:3', 'Case43,未选GT:1,选择GT:3,差不多:2', 'Case46,未选GT:3,选择GT:2,差不多:1', 'Case49,未选GT:2,选择GT:2,差不多:2', 'Case52,未选GT:1,选择GT:1,差不多:4', 'Case55,未选GT:2,选择GT:1,差不多:3', 'Case58,未选GT:1,选择GT:1,差不多:4', 'Case61,未选GT:2,选择GT:1,差不多:3', 'Case7,未选GT:4,选择GT:1,差不多:1']
+analyse_res [[1, [4, 0, 2]], [4, [4, 0, 2]], [7, [4, 1, 1]], [10, [3, 0, 3]], [13, [2, 1, 3]], [16, [1, 4, 1]], [19, [1, 4, 1]], [22, [2, 3, 1]], [25, [1, 0, 5]], [28, [2, 0, 4]], [31, [1, 1, 4]], [34, [5, 0, 1]], [37, [2, 0, 4]], [40, [3, 0, 3]], [43, [1, 3, 2]], [46, [3, 2, 1]], [49, [2, 2, 2]], [52, [1, 1, 4]], [55, [2, 1, 3]], [58, [1, 1, 4]], [61, [2, 1, 3]]]
+res Case1,cmx,否,0!Case1,czw,否,0!Case1,lr,否,0!Case1,qhn,差不多,0!Case1,wj,差不多,0!Case1,zxz,否,0!Case10,cmx,否,0!Case10,czw,差不多,0!Case10,lr,否,0!Case10,qhn,差不多,0!Case10,wj,否,0!Case10,zxz,差不多,0!Case13,cmx,差不多,0!Case13,czw,差不多,0!Case13,lr,是,0!Case13,qhn,否,0!Case13,wj,差不多,0!Case13,zxz,否,0!Case16,cmx,是,0!Case16,czw,是,0!Case16,lr,是,0!Case16,qhn,否,0!Case16,wj,差不多,0!Case16,zxz,是,0!Case19,cmx,是,0!Case19,czw,是,0!Case19,lr,是,0!Case19,qhn,否,0!Case19,wj,差不多,0!Case19,zxz,是,0!Case22,cmx,是,0!Case22,czw,是,0!Case22,lr,否,0!Case22,qhn,否,0!Case22,wj,差不多,0!Case22,zxz,是,0!Case25,cmx,差不多,0!Case25,czw,差不多,0!Case25,lr,否,0!Case25,qhn,差不多,0!Case25,wj,差不多,0!Case25,zxz,差不多,0!Case28,cmx,差不多,0!Case28,czw,差不多,0!Case28,lr,否,0!Case28,qhn,差不多,0!Case28,wj,差不多,0!Case28,zxz,否,0!Case31,cmx,否,0!Case31,czw,差不多,0!Case31,lr,差不多,0!Case31,qhn,是,0!Case31,wj,差不多,0!Case31,zxz,差不多,0!Case34,cmx,否,0!Case34,czw,否,0!Case34,lr,否,0!Case34,qhn,否,0!Case34,wj,差不多,0!Case34,zxz,否,0!Case37,cmx,差不多,0!Case37,czw,差不多,0!Case37,lr,差不多,0!Case37,qhn,否,0!Case37,wj,差不多,0!Case37,zxz,否,0!Case4,cmx,否,0!Case4,czw,差不多,0!Case4,lr,否,0!Case4,qhn,否,0!Case4,wj,差不多,0!Case4,zxz,否,0!Case40,cmx,差不多,0!Case40,czw,否,0!Case40,lr,否,0!Case40,qhn,否,0!Case40,wj,差不多,0!Case40,zxz,差不多,0!Case43,cmx,是,0!Case43,czw,是,0!Case43,lr,是,0!Case43,qhn,差不多,0!Case43,wj,差不多,0!Case43,zxz,否,0!Case46,cmx,否,0!Case46,czw,否,0!Case46,lr,是,0!Case46,qhn,否,0!Case46,wj,差不多,0!Case46,zxz,是,0!Case49,cmx,否,0!Case49,czw,差不多,0!Case49,lr,是,0!Case49,qhn,否,0!Case49,wj,是,0!Case49,zxz,差不多,0!Case52,cmx,差不多,0!Case52,czw,差不多,0!Case52,lr,否,0!Case52,qhn,差不多,0!Case52,wj,差不多,0!Case52,zxz,是,0!Case55,cmx,差不多,0!Case55,czw,差不多,0!Case55,lr,是,0!Case55,qhn,否,0!Case55,wj,差不多,0!Case55,zxz,否,0!Case58,cmx,差不多,0!Case58,czw,差不多,0!Case58,lr,是,0!Case58,qhn,差不多,0!Case58,wj,差不多,0!Case58,zxz,否,0!Case61,cmx,差不多,0!Case61,czw,差不多,0!Case61,lr,是,0!Case61,qhn,否,0!Case61,wj,差不多,0!Case61,zxz,否,0!Case7,cmx,否,0!Case7,czw,是,0!Case7,lr,否,0!Case7,qhn,差不多,0!Case7,wj,否,0!Case7,zxz,否,0!Case1,未选GT:4,选择GT:0,差不多:2!Case10,未选GT:3,选择GT:0,差不多:3!Case13,未选GT:2,选择GT:1,差不多:3!Case16,未选GT:1,选择GT:4,差不多:1!Case19,未选GT:1,选择GT:4,差不多:1!Case22,未选GT:2,选择GT:3,差不多:1!Case25,未选GT:1,选择GT:0,差不多:5!Case28,未选GT:2,选择GT:0,差不多:4!Case31,未选GT:1,选择GT:1,差不多:4!Case34,未选GT:5,选择GT:0,差不多:1!Case37,未选GT:2,选择GT:0,差不多:4!Case4,未选GT:4,选择GT:0,差不多:2!Case40,未选GT:3,选择GT:0,差不多:3!Case43,未选GT:1,选择GT:3,差不多:2!Case46,未选GT:3,选择GT:2,差不多:1!Case49,未选GT:2,选择GT:2,差不多:2!Case52,未选GT:1,选择GT:1,差不多:4!Case55,未选GT:2,选择GT:1,差不多:3!Case58,未选GT:1,选择GT:1,差不多:4!Case61,未选GT:2,选择GT:1,差不多:3!Case7,未选GT:4,选择GT:1,差不多:1
+piRes 4,0,2!4,0,2!4,1,1!3,0,3!2,1,3!1,4,1!1,4,1!2,3,1!1,0,5!2,0,4!1,1,4!5,0,1!2,0,4!3,0,3!1,3,2!3,2,1!2,2,2!1,1,4!2,1,3!1,1,4!2,1,3
+10.1.25.243 - - [19/Apr/2022 17:32:19] "POST /analyze HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/css/fontawesome.min.css HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/css/templatemo-style.css HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/js/moment.min.js HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/js/Chart.min.js HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/js/tooplate-scripts.js HTTP/1.1" 200 -
+10.1.25.243 - - [19/Apr/2022 17:32:19] "GET /static/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -

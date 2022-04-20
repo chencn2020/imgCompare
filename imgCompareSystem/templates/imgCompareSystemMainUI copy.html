@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* *{margin:0; padding:0px;} 此行不用管，是为了清除代码样式 */
+    .mybox{width:100%; margin:10px auto;}
+    .myboxImg{width:100%; max-width:100%;
+<!--    cursor: zoom-in;        //放大图标-->
+<!--    cursor: zoom-out;        //缩小图标-->
+    }
+    .buttonStyle{width:200px; height: 50px;}
+
+    .main{float:None;border:1px; width:100%; margin:20px auto;  }
+    .left{float:left;border:1px; width:49%;  }
+    .right {float:right;border:1px; width:49%;  }
+
+    .medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}
+    .medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}
+    .medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s cubic-bezier(.2,0,.2,1)!important}
+    .medium-zoom-image--hidden{visibility:hidden}
+    .medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}
+</style>
+
+<link rel="stylesheet" href="./static/css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+<link href="./static/css/font-awesome.min.css" rel="stylesheet">
+<body onload="{{load_info}}">
+    <div class="main">
+        <!--删除了style属性，变得简洁-->
+        <div class="left">
+{#            <img src=".\static\images\1.jpg" class="myboxImg">#}
+            <img src="{{ img1 }}" class="myboxImg">
+            <br>
+            <span style="color: rgb(0, 0, 0);font-size: large; margin: 10px;"><u>图一</u></span>
+        </div>
+
+                <!--删除了style属性，变得简洁-->
+        <div class="right">
+            <img src="{{ img2 }}" class="myboxImg">
+            <br>
+            <span style="color: rgb(0, 0, 0); font-size: large; margin: 10px;"><u>图二</u></span>
+        </div>
+
+    </div>
+
+    
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend>------------------你觉得那张图主观效果更好------------------</legend>
+        <div>
+            <form action="/service" method="post">
+    
+            <label for="">当前</label>
+{#            <label type="message" id="message" class="message" style="color: rgb(0, 0, 0);">{{now_case}}</label>#}
+            <input type="message" value="{{now_case}}" name="message" required readonly="readonly"/>
+            <label><input type="radio" name="img_chosen" value="0" checked=true/> 图一</label>
+            <label><input type="radio" name="img_chosen" value="1"/> 图二</label>
+            <label><input type="radio" name="img_chosen" value="2"/> 差不多</label>
+            <br>
+            <button type="submit" class="buttonStyle" >提交</button>
+            </form>
+        </div>
+        </fieldset>
+    </div>
+
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend>------------------基本信息------------------</legend>
+        <div>
+            <p>用户名: {{user_name}}</p>
+            <p>评价数据集: {{dataset_judge}}</p>
+            <!-- <p>当前Case: {{now_case}}</p> -->
+            <p>完成情况(完成数/总数): {{finish_num}} / {{full_num}}</p>
+        </div>
+        </fieldset>
+    </div>
+
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend>------------------点击查看统计信息------------------</legend>
+        <div>
+            <form action="/analyze" method="post">
+            <button type="submit" class="buttonStyle" >立即查看</button>
+            </form>
+        </div>
+        </fieldset>
+    </div>
+
+    <div style="margin: 25px;">
+        <fieldset>
+            <legend>------------------逐图展示------------------</legend>
+        <div>
+            <form action="/loopPic/show" method="get">
+            <button type="submit" class="buttonStyle" >立即查看</button>
+            </form>
+        </div>
+        </fieldset>
+    </div>
+    
+</body>
+</html>

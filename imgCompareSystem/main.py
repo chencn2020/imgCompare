@@ -8,8 +8,8 @@ import random
 import string
 
 compareImgDatabase = 'test1'
-compareImgDatabase = 'TinyISP_ResizeCrop61_TIQA_20k'
-compareImgDatabase = 'TinyISP_Crop61_SSIMOnly_20k'
+# compareImgDatabase = 'TinyISP_ResizeCrop61_TIQA_20k'
+# compareImgDatabase = 'TinyISP_Crop61_SSIMOnly_20k'
 print('测试数据集：', compareImgDatabase)
 app = Flask(__name__, static_folder='', static_url_path='')
 checkUser = checkUseInfo.checkUserInfo()
