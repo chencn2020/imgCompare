@@ -7,9 +7,10 @@ from utils import compareImgDatabase as CID
 import random
 import string
 
-# compareImgDatabase = 'test1'
+compareImgDatabase = 'test1'
 # compareImgDatabase = 'TinyISP_ResizeCrop61_TIQA_20k'
-compareImgDatabase = 'TinyISP_Crop61_SSIMOnly_20k'
+# compareImgDatabase = 'TinyISP_Crop61_SSIMOnly_20k'
+compareImgDatabase = 'TinyISP_Full61_TeacherIQA_SSIM_PSNR'
 print('测试数据集：', compareImgDatabase)
 app = Flask(__name__, static_folder='', static_url_path='')
 checkUser = checkUseInfo.checkUserInfo()
@@ -60,18 +61,20 @@ load_info = None
 
 @app.route('/loopPic/<choice>', methods=['POST', 'GET'])
 def loopPic(choice):
+
+    print('\n-------------loopPic------------')
     global load_info
 
     user_token = request.cookies.get("token")
     userName = get_key_from_dict(userCookie, user_token)
-    print(user_token, userCookie, choice)
+    print(userName, user_token, userCookie, choice)
 
     if userName:
         if userName not in userChoiceCookie:
             userChoiceCookie[userName] = 0
         if request.method == "GET":
             [nowCase, img1, img2, res] = compareDB.get_a_not_finish_case(userName)
-            if nowCase is not None:
+            if nowCase is not None and userName != 'czw':
                 load_info = "请完成全部Case后再查看"
                 return redirect('/service')
         elif request.method == 'POST':
@@ -82,6 +85,12 @@ def loopPic(choice):
             else:
                 pass
         [gt, notGt, gtNum, notGtNum, noDiffNum, nowCase] = compareDB.get_a_case_and_res(userChoiceCookie[userName])
+
+        # 超管专用
+        if gtNum + notGtNum + noDiffNum == 0:
+            gtNum = 0
+            notGtNum = 0
+            noDiffNum = 0.1
         return render_template("loopPIC.html", now_case=nowCase, img1=gt, img2=notGt,
                                choose_gt_num=gtNum, not_choose_gt_num=notGtNum, not_diff_gt_num = noDiffNum,
                                all_people_num=gtNum + notGtNum + noDiffNum,
