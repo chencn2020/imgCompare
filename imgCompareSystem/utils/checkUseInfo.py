@@ -43,13 +43,13 @@ class checkUserInfo():
 
 if __name__ == '__main__':
     sql = checkUserInfo()
-    # sql.create_table("create table userInfo (userName varchar(10) primary key,password varchar(10))")
+    sql.create_table("create table userInfo (userName varchar(10) primary key,password varchar(10))")
 
-    # sql.insert_user(['czw', 'lb', 'wj', 'qhn', 'zxz', 'hlf', 'cmx', 'lr'],
-    #                 ['czw', 'lb', 'wj', 'qhn', 'zxz', 'hlf', 'cmx', 'lr'])
+    sql.insert_user(['czw', 'lb', 'wj', 'qhn', 'zxz', 'hlf', 'cmx', 'lr'],
+                    ['czwCASIA2022', 'lbCASIA2022', 'wjCASIA2022', 'qhnCASIA2022', 'zxzCASIA2022', 'hlfCASIA2022', 'cmxCASIA2022', 'lrCASIA2022'])
 
     # print(sql.login_check("select * from userInfo where userName = 'czw' and password = '1'"))
-    print(sql.login_check('czw', 'czw'))
-    print(sql.login_check('czw', '1'))
-    print(sql.login_check('czw', '1 or 1'))
+    # print(sql.login_check('czw', 'czw'))
+    # print(sql.login_check('czw', '1'))
+    # print(sql.login_check('czw', '1 or 1'))
     # print(sql.login_check("select * from userInfo where userName = 'czw'"))

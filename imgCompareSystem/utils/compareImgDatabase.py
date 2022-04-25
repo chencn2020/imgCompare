@@ -54,16 +54,23 @@ class compareImgDatabase:
             
 
     def show_all(self):
-        sql = "select * from compareImgInfo"
-        self.cu.execute(sql)
-        res = self.cu.fetchall()
-        print('show_all', res)
+        try:
+            self.get_finish_lock.acquire(True)
+            sql = "select * from compareImgInfo"
+            self.cu.execute(sql)
+            res = self.cu.fetchall()
+            print('show_all', res)
+        finally:
+            self.get_finish_lock.release()
 
     def analyse_res(self):
-        sql = "select caseName, isGt from compareImgInfo"
-        self.cu.execute(sql)
-        res = self.cu.fetchall()
-        
+        try:
+            self.get_finish_lock.acquire(True)
+            sql = "select caseName, isGt from compareImgInfo"
+            self.cu.execute(sql)
+            res = self.cu.fetchall()
+        finally:
+            self.get_finish_lock.release()
 
         analyse_res = {}
         for case, choice in res:
@@ -88,17 +95,20 @@ class compareImgDatabase:
         detailInfo = ['否', '是', '差不多']
         analyse_res = []
         analyse_all = {}
-        for case in caseList:
-            sql = "select * from compareImgInfo where caseName = '{}'".format(case)
-            self.cu.execute(sql)
-            res = self.cu.fetchall()
-            if len(res) > 0:
-                if case not in analyse_all:
-                    analyse_all[case] = [0, 0, 0]
-                for _, user, isGt in res:
-                    analyse_res.append('{},{},{},0'.format(case, user, detailInfo[isGt]))
-                    analyse_all[case][isGt] += 1
-
+        try:
+            self.get_finish_lock.acquire(True)
+            for case in caseList:
+                sql = "select * from compareImgInfo where caseName = '{}'".format(case)
+                self.cu.execute(sql)
+                res = self.cu.fetchall()
+                if len(res) > 0:
+                    if case not in analyse_all:
+                        analyse_all[case] = [0, 0, 0]
+                    for _, user, isGt in res:
+                        analyse_res.append('{},{},{},0'.format(case, user, detailInfo[isGt]))
+                        analyse_all[case][isGt] += 1
+        finally:
+            self.get_finish_lock.release()
         for key, value in analyse_all.items():
             analyse_res.append(','.join([key, '未选GT:{}'.format(value[0]), '选择GT:{}'.format(value[1]), '差不多:{}'.format(value[2])]))
         print('analyse_res', analyse_res)
