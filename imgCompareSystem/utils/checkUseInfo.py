@@ -12,10 +12,8 @@ import os
 class checkUserInfo():
     def __init__(self):
         # print(os.getcwd())
-        # print(os.path.join(os.getcwd(), 'imgCompareSystem',
-        #                                                  'source/database/userInfo.db'))
-        self.userDatabase = sqlite3.connect(os.path.join(os.getcwd(), 'source/database/userInfo.db'),
-                                            check_same_thread=False)
+        # print(os.path.join(os.getcwd(), 'imgCompareSystem', 'source/database/userInfo.db'))
+        self.userDatabase = sqlite3.connect(os.path.join(os.getcwd(), 'source/database/userInfo.db'), check_same_thread=False)
         self.cu = self.userDatabase.cursor()
 
     def commit_sql(self):

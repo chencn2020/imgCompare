@@ -20,7 +20,7 @@
 </head>
 
 <body id="reportsPage"
-      onload="insert_order_html({{ order_num }}, '{{ order_list }}'); insert_pi({{piNum}}); run_pi({{piNum}}, '{{ piInfo }}')">
+      onload="insert_order_html({{ order_num }}, '{{ order_list }}');">
 
 <script language="javascript">
 
@@ -38,6 +38,7 @@
             str = str + "<td>" + tem[1] + "</td>&nbsp;"
             str = str + "<td>" + tem[2] + "</td>&nbsp;"
             str = str + "<td>" + tem[3] + "</td>&nbsp;"
+            str = str + "<td>" + tem[4] + "</td>&nbsp;"
             str = str + "</tr>"
         }
 
@@ -194,8 +195,7 @@
                         <tr>
                             <th scope="col">Case</th>
                             <th scope="col">评分人</th>
-                            <th scope="col">是否选择GT为最优图像</th>
-                            <th scope="col">其他</th>
+                            <th scope="col">选取结果</th>
                         </tr>
                         </thead>
 

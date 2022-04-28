@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>复选框</title>
+    <style>
+        .rowImg {
+            display: flex;
+            margin: 5px auto;
+            width: 100%;
+        }
+
+        .imgBlock {
+            margin: 10px auto;
+            width: 19%;
+        }
+
+
+        img {
+            border: 1px solid #eee;
+            width: 100%;
+            /* padding: 10px; */
+            position: relative;
+        }
+
+        .checked {
+            border: 3px solid red;
+            /* color: red; */
+        }
+
+        .submit_button {
+            appearance: auto;
+            -webkit-writing-mode: horizontal-tb !important;
+            text-rendering: auto;
+            color: -internal-light-dark(black, white);
+            letter-spacing: normal;
+            word-spacing: normal;
+            line-height: normal;
+            text-transform: none;
+            font-size: 25px;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: center;
+            align-items: flex-start;
+            cursor: default;
+            box-sizing: border-box;
+            background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+            margin: 0em;
+            padding: 1px 6px;
+            border-width: 2px;
+            border-style: outset;
+            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+            border-image: initial;
+            width: 200px;
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: rgb(0, 0, 0); font-size: 25px; text-align: center;display:block;">Please Choose <em style="color: rgb(255, 0, 0); "> Three</em> Images That You Prefer</h1>
+    <div class="box">
+        <div class="options">
+            <!-- 第一行图片-->
+            <div class="rowImg">
+                <!-- 一个图像块，分为img和label -->
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\1.jpg"
+                        id="1" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG1</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\2.jpg"
+                        id="2" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG2</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\3.jpg"
+                        id="3" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG3</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\4.jpg"
+                        id="4" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG4</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\5.jpg"
+                        id="5" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG5</span>
+                </div>
+            </div>
+
+            <!-- 第三行图片-->
+            <div class="rowImg">
+                <!-- 一个图像块，分为img和label -->
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\6.jpg"
+                        id="6" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG6</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\7.jpg"
+                        id="7" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG7</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\8.jpg"
+                        id="8" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG8</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\9.jpg"
+                        id="9" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG9</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\10.jpg"
+                        id="10" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG10</span>
+                </div>
+            </div>
+
+            <!-- 第三行图片-->
+            <div class="rowImg">
+                <!-- 一个图像块，分为img和label -->
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\11.jpg"
+                        id="11" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG11</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\12.jpg"
+                        id="12" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG12</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\13.jpg"
+                        id="13" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG13</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\14.jpg"
+                        id="14" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG14</span>
+                </div>
+
+                <div class="imgBlock">
+                    <img src="C:\users\c2000\desktop\imgcompare\imgcomparesystem\source\ImgTest\test\Canon\IMG_0432\15.jpg"
+                        id="15" />
+                    <span style="color: rgb(0, 0, 0); font-size: large; text-align: center;display:block;">IMG15</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <button type="submit" class="submit_button" onclick="submit_choice" id="submit_button">SUBMIT</button>
+
+    <script>
+        //目标是：复选框效果，样式比较简单，点击字体变颜色即可
+        var list = document.querySelectorAll("img"); //先获取所有标签
+        var btn = document.getElementById('submit_button');
+        btn.addEventListener('click', submit_choice, false);
+
+        var click_sum = 0;
+        console.log(list); //类数组
+
+        for (var i = 0; i < list.length; i++) {
+            list[i].onclick = function () {
+                if (this.classList.value == 'checked') {
+                    click_sum--;
+                    this.classList.toggle('checked');
+                } else if (click_sum >= 3) {
+                    alert('You can only pick three imgs.')
+                } else {
+                    this.classList.toggle('checked');
+                    click_sum++;
+                }
+                console.log('click_sum' + String(click_sum))
+            }
+        }
+
+        function submit_choice() {
+            var img_list = document.querySelectorAll("img"); //先获取所有标签
+            var submit_list = new Array()
+            for (var i = 0; i < img_list.length; i++) {
+                if (img_list[i].classList.value == 'checked') {
+                    submit_list.push(img_list[i].id)
+                }
+            }
+
+            if (submit_list.length < 3) {
+                alert('Please choose at least 3 imgs.')
+            } else {
+                // console.log(submit_list)
+                console.log('Submit list' + submit_list.toString())
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
