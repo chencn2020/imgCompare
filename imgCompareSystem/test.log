@@ -403,3 +403,896 @@ get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06
 172.18.50.60 - - [25/Apr/2022 14:32:06] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
 172.18.50.60 - - [25/Apr/2022 14:32:06] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
 172.18.50.60 - - [25/Apr/2022 14:32:06] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:20] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:20] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:20] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:20] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:25] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:25] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:25] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:25] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:30] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:30] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:30] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:30] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:30] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:32] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:32] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:32] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:32] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:32] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:35] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:35] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:35] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:35] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:35] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:37] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:37] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:37] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:37] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:45] "GET / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:46] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:46] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:46] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+用户lr登录True
+172.18.50.60 - - [25/Apr/2022 14:32:47] "[32mPOST / HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:47] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:47] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:47] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:47] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:51] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:51] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:51] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:51] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:51] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:32:53] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:32:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:53] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:53] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:32:53] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:02] "GET / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:02] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:02] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:02] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+用户lr登录False
+172.18.50.60 - - [25/Apr/2022 14:33:04] "POST / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:04] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:05] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:11] "[31m[1mPOST / HTTP/1.1[0m" 400 -
+172.18.50.60 - - [25/Apr/2022 14:33:12] "GET / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:12] "GET / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:12] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:12] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:12] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:17] "GET / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:17] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:17] "[36mGET /static/images/m.jpg HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:18] "[36mGET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+用户lr登录True
+172.18.50.60 - - [25/Apr/2022 14:33:19] "[32mPOST / HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:33:19] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:19] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:19] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:19] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:33:23] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:23] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:23] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:23] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+analyse_res ['Case01,czw,是,0', 'Case01,lr,是,0', 'Case01,qhn,否,0', 'Case01,wj,是,0', 'Case01,zxz,差不多,0', 'Case02,czw,是,0', 'Case02,lr,是,0', 'Case02,qhn,否,0', 'Case02,wj,是,0', 'Case02,zxz,是,0', 'Case03,czw,差不多,0', 'Case03,lr,是,0', 'Case03,qhn,是,0', 'Case03,wj,是,0', 'Case03,zxz,是,0', 'Case04,czw,是,0', 'Case04,lr,是,0', 'Case04,qhn,否,0', 'Case04,wj,是,0', 'Case04,zxz,否,0', 'Case05,czw,差不多,0', 'Case05,lr,差不多,0', 'Case05,qhn,差不多,0', 'Case05,wj,差不多,0', 'Case05,zxz,差不多,0', 'Case06,czw,差不多,0', 'Case06,lr,否,0', 'Case06,qhn,否,0', 'Case06,wj,差不多,0', 'Case06,zxz,差不多,0', 'Case07,czw,差不多,0', 'Case07,lr,否,0', 'Case07,qhn,差不多,0', 'Case07,wj,差不多,0', 'Case07,zxz,差不多,0', 'Case08,czw,是,0', 'Case08,lr,是,0', 'Case08,qhn,否,0', 'Case08,wj,差不多,0', 'Case08,zxz,否,0', 'Case09,czw,是,0', 'Case09,lr,是,0', 'Case09,qhn,否,0', 'Case09,wj,是,0', 'Case09,zxz,是,0', 'Case10,czw,差不多,0', 'Case10,lr,是,0', 'Case10,qhn,否,0', 'Case10,wj,是,0', 'Case10,zxz,差不多,0', 'Case11,czw,差不多,0', 'Case11,lr,是,0', 'Case11,qhn,差不多,0', 'Case11,wj,差不多,0', 'Case11,zxz,差不多,0', 'Case12,czw,是,0', 'Case12,lr,是,0', 'Case12,qhn,否,0', 'Case12,wj,差不多,0', 'Case12,zxz,差不多,0', 'Case13,czw,是,0', 'Case13,lr,是,0', 'Case13,qhn,差不多,0', 'Case13,wj,差不多,0', 'Case13,zxz,差不多,0', 'Case14,czw,是,0', 'Case14,lr,是,0', 'Case14,qhn,差不多,0', 'Case14,wj,是,0', 'Case14,zxz,是,0', 'Case15,czw,差不多,0', 'Case15,lr,差不多,0', 'Case15,qhn,差不多,0', 'Case15,wj,差不多,0', 'Case15,zxz,否,0', 'Case16,czw,否,0', 'Case16,lr,差不多,0', 'Case16,qhn,否,0', 'Case16,wj,差不多,0', 'Case16,zxz,是,0', 'Case17,czw,差不多,0', 'Case17,lr,是,0', 'Case17,qhn,否,0', 'Case17,wj,差不多,0', 'Case17,zxz,差不多,0', 'Case18,czw,否,0', 'Case18,lr,是,0', 'Case18,qhn,否,0', 'Case18,wj,差不多,0', 'Case18,zxz,否,0', 'Case19,czw,差不多,0', 'Case19,lr,是,0', 'Case19,qhn,否,0', 'Case19,wj,差不多,0', 'Case19,zxz,是,0', 'Case20,czw,差不多,0', 'Case20,lr,是,0', 'Case20,qhn,否,0', 'Case20,wj,差不多,0', 'Case20,zxz,差不多,0', 'Case21,czw,是,0', 'Case21,lr,是,0', 'Case21,qhn,否,0', 'Case21,wj,差不多,0', 'Case21,zxz,差不多,0', 'Case22,czw,差不多,0', 'Case22,lr,是,0', 'Case22,qhn,否,0', 'Case22,wj,是,0', 'Case22,zxz,是,0', 'Case23,czw,差不多,0', 'Case23,lr,是,0', 'Case23,qhn,否,0', 'Case23,wj,差不多,0', 'Case23,zxz,是,0', 'Case24,czw,差不多,0', 'Case24,lr,是,0', 'Case24,qhn,是,0', 'Case24,wj,是,0', 'Case24,zxz,是,0', 'Case25,czw,否,0', 'Case25,lr,是,0', 'Case25,qhn,是,0', 'Case25,wj,是,0', 'Case25,zxz,是,0', 'Case26,czw,差不多,0', 'Case26,lr,差不多,0', 'Case26,qhn,否,0', 'Case26,wj,差不多,0', 'Case26,zxz,否,0', 'Case27,czw,是,0', 'Case27,lr,是,0', 'Case27,qhn,否,0', 'Case27,wj,是,0', 'Case27,zxz,是,0', 'Case28,czw,是,0', 'Case28,lr,是,0', 'Case28,qhn,差不多,0', 'Case28,wj,是,0', 'Case28,zxz,差不多,0', 'Case29,czw,差不多,0', 'Case29,lr,差不多,0', 'Case29,qhn,否,0', 'Case29,wj,否,0', 'Case29,zxz,差不多,0', 'Case30,czw,否,0', 'Case30,lr,是,0', 'Case30,qhn,差不多,0', 'Case30,wj,差不多,0', 'Case30,zxz,是,0', 'Case31,czw,是,0', 'Case31,lr,是,0', 'Case31,qhn,是,0', 'Case31,wj,是,0', 'Case31,zxz,差不多,0', 'Case32,czw,是,0', 'Case32,lr,是,0', 'Case32,qhn,差不多,0', 'Case32,wj,是,0', 'Case32,zxz,差不多,0', 'Case33,czw,是,0', 'Case33,lr,是,0', 'Case33,qhn,否,0', 'Case33,wj,否,0', 'Case33,zxz,否,0', 'Case34,czw,差不多,0', 'Case34,lr,差不多,0', 'Case34,qhn,否,0', 'Case34,wj,是,0', 'Case34,zxz,是,0', 'Case35,czw,差不多,0', 'Case35,lr,是,0', 'Case35,qhn,差不多,0', 'Case35,wj,差不多,0', 'Case35,zxz,差不多,0', 'Case36,czw,差不多,0', 'Case36,lr,差不多,0', 'Case36,qhn,是,0', 'Case36,wj,差不多,0', 'Case36,zxz,是,0', 'Case37,czw,差不多,0', 'Case37,lr,是,0', 'Case37,qhn,是,0', 'Case37,wj,是,0', 'Case37,zxz,是,0', 'Case38,czw,是,0', 'Case38,lr,是,0', 'Case38,qhn,是,0', 'Case38,wj,差不多,0', 'Case38,zxz,差不多,0', 'Case39,czw,是,0', 'Case39,lr,是,0', 'Case39,qhn,差不多,0', 'Case39,wj,是,0', 'Case39,zxz,是,0', 'Case40,czw,是,0', 'Case40,lr,是,0', 'Case40,qhn,是,0', 'Case40,wj,否,0', 'Case40,zxz,是,0', 'Case41,czw,是,0', 'Case41,lr,是,0', 'Case41,qhn,否,0', 'Case41,wj,否,0', 'Case41,zxz,是,0', 'Case42,czw,差不多,0', 'Case42,lr,是,0', 'Case42,qhn,否,0', 'Case42,wj,否,0', 'Case42,zxz,否,0', 'Case43,czw,差不多,0', 'Case43,lr,差不多,0', 'Case43,qhn,差不多,0', 'Case43,wj,否,0', 'Case43,zxz,差不多,0', 'Case44,czw,差不多,0', 'Case44,qhn,差不多,0', 'Case44,wj,是,0', 'Case44,zxz,差不多,0', 'Case45,czw,是,0', 'Case45,qhn,是,0', 'Case45,wj,是,0', 'Case45,zxz,否,0', 'Case46,czw,是,0', 'Case46,qhn,是,0', 'Case46,wj,是,0', 'Case46,zxz,差不多,0', 'Case47,czw,是,0', 'Case47,qhn,否,0', 'Case47,wj,否,0', 'Case47,zxz,差不多,0', 'Case48,czw,否,0', 'Case48,qhn,否,0', 'Case48,wj,否,0', 'Case48,zxz,否,0', 'Case49,czw,否,0', 'Case49,qhn,否,0', 'Case49,wj,否,0', 'Case49,zxz,否,0', 'Case50,czw,否,0', 'Case50,qhn,否,0', 'Case50,wj,是,0', 'Case50,zxz,差不多,0', 'Case01,未选GT:1,选择GT:3,差不多:1', 'Case02,未选GT:1,选择GT:4,差不多:0', 'Case03,未选GT:0,选择GT:4,差不多:1', 'Case04,未选GT:2,选择GT:3,差不多:0', 'Case05,未选GT:0,选择GT:0,差不多:5', 'Case06,未选GT:2,选择GT:0,差不多:3', 'Case07,未选GT:1,选择GT:0,差不多:4', 'Case08,未选GT:2,选择GT:2,差不多:1', 'Case09,未选GT:1,选择GT:4,差不多:0', 'Case10,未选GT:1,选择GT:2,差不多:2', 'Case11,未选GT:0,选择GT:1,差不多:4', 'Case12,未选GT:1,选择GT:2,差不多:2', 'Case13,未选GT:0,选择GT:2,差不多:3', 'Case14,未选GT:0,选择GT:4,差不多:1', 'Case15,未选GT:1,选择GT:0,差不多:4', 'Case16,未选GT:2,选择GT:1,差不多:2', 'Case17,未选GT:1,选择GT:1,差不多:3', 'Case18,未选GT:3,选择GT:1,差不多:1', 'Case19,未选GT:1,选择GT:2,差不多:2', 'Case20,未选GT:1,选择GT:1,差不多:3', 'Case21,未选GT:1,选择GT:2,差不多:2', 'Case22,未选GT:1,选择GT:3,差不多:1', 'Case23,未选GT:1,选择GT:2,差不多:2', 'Case24,未选GT:0,选择GT:4,差不多:1', 'Case25,未选GT:1,选择GT:4,差不多:0', 'Case26,未选GT:2,选择GT:0,差不多:3', 'Case27,未选GT:1,选择GT:4,差不多:0', 'Case28,未选GT:0,选择GT:3,差不多:2', 'Case29,未选GT:2,选择GT:0,差不多:3', 'Case30,未选GT:1,选择GT:2,差不多:2', 'Case31,未选GT:0,选择GT:4,差不多:1', 'Case32,未选GT:0,选择GT:3,差不多:2', 'Case33,未选GT:3,选择GT:2,差不多:0', 'Case34,未选GT:1,选择GT:2,差不多:2', 'Case35,未选GT:0,选择GT:1,差不多:4', 'Case36,未选GT:0,选择GT:2,差不多:3', 'Case37,未选GT:0,选择GT:4,差不多:1', 'Case38,未选GT:0,选择GT:3,差不多:2', 'Case39,未选GT:0,选择GT:4,差不多:1', 'Case40,未选GT:1,选择GT:4,差不多:0', 'Case41,未选GT:2,选择GT:3,差不多:0', 'Case42,未选GT:3,选择GT:1,差不多:1', 'Case43,未选GT:1,选择GT:0,差不多:4', 'Case44,未选GT:0,选择GT:1,差不多:3', 'Case45,未选GT:1,选择GT:3,差不多:0', 'Case46,未选GT:0,选择GT:3,差不多:1', 'Case47,未选GT:2,选择GT:1,差不多:1', 'Case48,未选GT:4,选择GT:0,差不多:0', 'Case49,未选GT:4,选择GT:0,差不多:0', 'Case50,未选GT:2,选择GT:1,差不多:1']
+analyse_res [[1, [1, 3, 1]], [2, [1, 4, 0]], [3, [0, 4, 1]], [4, [2, 3, 0]], [5, [0, 0, 5]], [6, [2, 0, 3]], [7, [1, 0, 4]], [8, [2, 2, 1]], [9, [1, 4, 0]], [10, [1, 2, 2]], [11, [0, 1, 4]], [12, [1, 2, 2]], [13, [0, 2, 3]], [14, [0, 4, 1]], [15, [1, 0, 4]], [16, [2, 1, 2]], [17, [1, 1, 3]], [18, [3, 1, 1]], [19, [1, 2, 2]], [20, [1, 1, 3]], [21, [1, 2, 2]], [22, [1, 3, 1]], [23, [1, 2, 2]], [24, [0, 4, 1]], [25, [1, 4, 0]], [26, [2, 0, 3]], [27, [1, 4, 0]], [28, [0, 3, 2]], [29, [2, 0, 3]], [30, [1, 2, 2]], [31, [0, 4, 1]], [32, [0, 3, 2]], [33, [3, 2, 0]], [34, [1, 2, 2]], [35, [0, 1, 4]], [36, [0, 2, 3]], [37, [0, 4, 1]], [38, [0, 3, 2]], [39, [0, 4, 1]], [40, [1, 4, 0]], [41, [2, 3, 0]], [42, [3, 1, 1]], [43, [1, 0, 4]], [44, [0, 1, 3]], [45, [1, 3, 0]], [46, [0, 3, 1]], [47, [2, 1, 1]], [48, [4, 0, 0]], [49, [4, 0, 0]], [50, [2, 1, 1]]]
+res Case01,czw,是,0!Case01,lr,是,0!Case01,qhn,否,0!Case01,wj,是,0!Case01,zxz,差不多,0!Case02,czw,是,0!Case02,lr,是,0!Case02,qhn,否,0!Case02,wj,是,0!Case02,zxz,是,0!Case03,czw,差不多,0!Case03,lr,是,0!Case03,qhn,是,0!Case03,wj,是,0!Case03,zxz,是,0!Case04,czw,是,0!Case04,lr,是,0!Case04,qhn,否,0!Case04,wj,是,0!Case04,zxz,否,0!Case05,czw,差不多,0!Case05,lr,差不多,0!Case05,qhn,差不多,0!Case05,wj,差不多,0!Case05,zxz,差不多,0!Case06,czw,差不多,0!Case06,lr,否,0!Case06,qhn,否,0!Case06,wj,差不多,0!Case06,zxz,差不多,0!Case07,czw,差不多,0!Case07,lr,否,0!Case07,qhn,差不多,0!Case07,wj,差不多,0!Case07,zxz,差不多,0!Case08,czw,是,0!Case08,lr,是,0!Case08,qhn,否,0!Case08,wj,差不多,0!Case08,zxz,否,0!Case09,czw,是,0!Case09,lr,是,0!Case09,qhn,否,0!Case09,wj,是,0!Case09,zxz,是,0!Case10,czw,差不多,0!Case10,lr,是,0!Case10,qhn,否,0!Case10,wj,是,0!Case10,zxz,差不多,0!Case11,czw,差不多,0!Case11,lr,是,0!Case11,qhn,差不多,0!Case11,wj,差不多,0!Case11,zxz,差不多,0!Case12,czw,是,0!Case12,lr,是,0!Case12,qhn,否,0!Case12,wj,差不多,0!Case12,zxz,差不多,0!Case13,czw,是,0!Case13,lr,是,0!Case13,qhn,差不多,0!Case13,wj,差不多,0!Case13,zxz,差不多,0!Case14,czw,是,0!Case14,lr,是,0!Case14,qhn,差不多,0!Case14,wj,是,0!Case14,zxz,是,0!Case15,czw,差不多,0!Case15,lr,差不多,0!Case15,qhn,差不多,0!Case15,wj,差不多,0!Case15,zxz,否,0!Case16,czw,否,0!Case16,lr,差不多,0!Case16,qhn,否,0!Case16,wj,差不多,0!Case16,zxz,是,0!Case17,czw,差不多,0!Case17,lr,是,0!Case17,qhn,否,0!Case17,wj,差不多,0!Case17,zxz,差不多,0!Case18,czw,否,0!Case18,lr,是,0!Case18,qhn,否,0!Case18,wj,差不多,0!Case18,zxz,否,0!Case19,czw,差不多,0!Case19,lr,是,0!Case19,qhn,否,0!Case19,wj,差不多,0!Case19,zxz,是,0!Case20,czw,差不多,0!Case20,lr,是,0!Case20,qhn,否,0!Case20,wj,差不多,0!Case20,zxz,差不多,0!Case21,czw,是,0!Case21,lr,是,0!Case21,qhn,否,0!Case21,wj,差不多,0!Case21,zxz,差不多,0!Case22,czw,差不多,0!Case22,lr,是,0!Case22,qhn,否,0!Case22,wj,是,0!Case22,zxz,是,0!Case23,czw,差不多,0!Case23,lr,是,0!Case23,qhn,否,0!Case23,wj,差不多,0!Case23,zxz,是,0!Case24,czw,差不多,0!Case24,lr,是,0!Case24,qhn,是,0!Case24,wj,是,0!Case24,zxz,是,0!Case25,czw,否,0!Case25,lr,是,0!Case25,qhn,是,0!Case25,wj,是,0!Case25,zxz,是,0!Case26,czw,差不多,0!Case26,lr,差不多,0!Case26,qhn,否,0!Case26,wj,差不多,0!Case26,zxz,否,0!Case27,czw,是,0!Case27,lr,是,0!Case27,qhn,否,0!Case27,wj,是,0!Case27,zxz,是,0!Case28,czw,是,0!Case28,lr,是,0!Case28,qhn,差不多,0!Case28,wj,是,0!Case28,zxz,差不多,0!Case29,czw,差不多,0!Case29,lr,差不多,0!Case29,qhn,否,0!Case29,wj,否,0!Case29,zxz,差不多,0!Case30,czw,否,0!Case30,lr,是,0!Case30,qhn,差不多,0!Case30,wj,差不多,0!Case30,zxz,是,0!Case31,czw,是,0!Case31,lr,是,0!Case31,qhn,是,0!Case31,wj,是,0!Case31,zxz,差不多,0!Case32,czw,是,0!Case32,lr,是,0!Case32,qhn,差不多,0!Case32,wj,是,0!Case32,zxz,差不多,0!Case33,czw,是,0!Case33,lr,是,0!Case33,qhn,否,0!Case33,wj,否,0!Case33,zxz,否,0!Case34,czw,差不多,0!Case34,lr,差不多,0!Case34,qhn,否,0!Case34,wj,是,0!Case34,zxz,是,0!Case35,czw,差不多,0!Case35,lr,是,0!Case35,qhn,差不多,0!Case35,wj,差不多,0!Case35,zxz,差不多,0!Case36,czw,差不多,0!Case36,lr,差不多,0!Case36,qhn,是,0!Case36,wj,差不多,0!Case36,zxz,是,0!Case37,czw,差不多,0!Case37,lr,是,0!Case37,qhn,是,0!Case37,wj,是,0!Case37,zxz,是,0!Case38,czw,是,0!Case38,lr,是,0!Case38,qhn,是,0!Case38,wj,差不多,0!Case38,zxz,差不多,0!Case39,czw,是,0!Case39,lr,是,0!Case39,qhn,差不多,0!Case39,wj,是,0!Case39,zxz,是,0!Case40,czw,是,0!Case40,lr,是,0!Case40,qhn,是,0!Case40,wj,否,0!Case40,zxz,是,0!Case41,czw,是,0!Case41,lr,是,0!Case41,qhn,否,0!Case41,wj,否,0!Case41,zxz,是,0!Case42,czw,差不多,0!Case42,lr,是,0!Case42,qhn,否,0!Case42,wj,否,0!Case42,zxz,否,0!Case43,czw,差不多,0!Case43,lr,差不多,0!Case43,qhn,差不多,0!Case43,wj,否,0!Case43,zxz,差不多,0!Case44,czw,差不多,0!Case44,qhn,差不多,0!Case44,wj,是,0!Case44,zxz,差不多,0!Case45,czw,是,0!Case45,qhn,是,0!Case45,wj,是,0!Case45,zxz,否,0!Case46,czw,是,0!Case46,qhn,是,0!Case46,wj,是,0!Case46,zxz,差不多,0!Case47,czw,是,0!Case47,qhn,否,0!Case47,wj,否,0!Case47,zxz,差不多,0!Case48,czw,否,0!Case48,qhn,否,0!Case48,wj,否,0!Case48,zxz,否,0!Case49,czw,否,0!Case49,qhn,否,0!Case49,wj,否,0!Case49,zxz,否,0!Case50,czw,否,0!Case50,qhn,否,0!Case50,wj,是,0!Case50,zxz,差不多,0!Case01,未选GT:1,选择GT:3,差不多:1!Case02,未选GT:1,选择GT:4,差不多:0!Case03,未选GT:0,选择GT:4,差不多:1!Case04,未选GT:2,选择GT:3,差不多:0!Case05,未选GT:0,选择GT:0,差不多:5!Case06,未选GT:2,选择GT:0,差不多:3!Case07,未选GT:1,选择GT:0,差不多:4!Case08,未选GT:2,选择GT:2,差不多:1!Case09,未选GT:1,选择GT:4,差不多:0!Case10,未选GT:1,选择GT:2,差不多:2!Case11,未选GT:0,选择GT:1,差不多:4!Case12,未选GT:1,选择GT:2,差不多:2!Case13,未选GT:0,选择GT:2,差不多:3!Case14,未选GT:0,选择GT:4,差不多:1!Case15,未选GT:1,选择GT:0,差不多:4!Case16,未选GT:2,选择GT:1,差不多:2!Case17,未选GT:1,选择GT:1,差不多:3!Case18,未选GT:3,选择GT:1,差不多:1!Case19,未选GT:1,选择GT:2,差不多:2!Case20,未选GT:1,选择GT:1,差不多:3!Case21,未选GT:1,选择GT:2,差不多:2!Case22,未选GT:1,选择GT:3,差不多:1!Case23,未选GT:1,选择GT:2,差不多:2!Case24,未选GT:0,选择GT:4,差不多:1!Case25,未选GT:1,选择GT:4,差不多:0!Case26,未选GT:2,选择GT:0,差不多:3!Case27,未选GT:1,选择GT:4,差不多:0!Case28,未选GT:0,选择GT:3,差不多:2!Case29,未选GT:2,选择GT:0,差不多:3!Case30,未选GT:1,选择GT:2,差不多:2!Case31,未选GT:0,选择GT:4,差不多:1!Case32,未选GT:0,选择GT:3,差不多:2!Case33,未选GT:3,选择GT:2,差不多:0!Case34,未选GT:1,选择GT:2,差不多:2!Case35,未选GT:0,选择GT:1,差不多:4!Case36,未选GT:0,选择GT:2,差不多:3!Case37,未选GT:0,选择GT:4,差不多:1!Case38,未选GT:0,选择GT:3,差不多:2!Case39,未选GT:0,选择GT:4,差不多:1!Case40,未选GT:1,选择GT:4,差不多:0!Case41,未选GT:2,选择GT:3,差不多:0!Case42,未选GT:3,选择GT:1,差不多:1!Case43,未选GT:1,选择GT:0,差不多:4!Case44,未选GT:0,选择GT:1,差不多:3!Case45,未选GT:1,选择GT:3,差不多:0!Case46,未选GT:0,选择GT:3,差不多:1!Case47,未选GT:2,选择GT:1,差不多:1!Case48,未选GT:4,选择GT:0,差不多:0!Case49,未选GT:4,选择GT:0,差不多:0!Case50,未选GT:2,选择GT:1,差不多:1
+piRes 1,3,1!1,4,0!0,4,1!2,3,0!0,0,5!2,0,3!1,0,4!2,2,1!1,4,0!1,2,2!0,1,4!1,2,2!0,2,3!0,4,1!1,0,4!2,1,2!1,1,3!3,1,1!1,2,2!1,1,3!1,2,2!1,3,1!1,2,2!0,4,1!1,4,0!2,0,3!1,4,0!0,3,2!2,0,3!1,2,2!0,4,1!0,3,2!3,2,0!1,2,2!0,1,4!0,2,3!0,4,1!0,3,2!0,4,1!1,4,0!2,3,0!3,1,1!1,0,4!0,1,3!1,3,0!0,3,1!2,1,1!4,0,0!4,0,0!2,1,1
+172.18.50.60 - - [25/Apr/2022 14:33:27] "POST /analyze HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:27] "GET /static/css/fontawesome.min.css HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:27] "GET /static/css/templatemo-style.css HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:27] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:27] "GET /static/js/moment.min.js HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:27] "GET /static/js/Chart.min.js HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:28] "[36mGET /static/js/tooplate-scripts.js HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:28] "GET /static/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:33:53] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:33:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:53] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:53] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:33:53] "[36mGET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1[0m" 304 -
+用户lr在Case44选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 14:33:59] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:33:59] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:34:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:34:00] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:34:00] "GET /source/ImgTest/Scheme1/Case45/Case45_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:34:00] "GET /source/ImgTest/Scheme1/Case45/Case45_pred.bmp HTTP/1.1" 200 -
+用户lr在Case45选择0，是否GT1
+172.18.50.60 - - [25/Apr/2022 14:34:30] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:34:30] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:34:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:34:30] "GET /source/ImgTest/Scheme1/Case46/Case46_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:34:30] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:34:31] "GET /source/ImgTest/Scheme1/Case46/Case46_GT.bmp HTTP/1.1" 200 -
+用户lr在Case46选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 14:35:13] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:35:13] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:35:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:35:13] "GET /source/ImgTest/Scheme1/Case47/Case47_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:35:13] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:35:13] "GET /source/ImgTest/Scheme1/Case47/Case47_GT.bmp HTTP/1.1" 200 -
+用户lr在Case47选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 14:36:18] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:36:18] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:36:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:36:19] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:36:19] "GET /source/ImgTest/Scheme1/Case48/Case48_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:36:19] "GET /source/ImgTest/Scheme1/Case48/Case48_GT.bmp HTTP/1.1" 200 -
+用户lr在Case48选择0，是否GT0
+172.18.50.60 - - [25/Apr/2022 14:37:34] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:37:34] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:37:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:37:34] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:37:34] "GET /source/ImgTest/Scheme1/Case49/Case49_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:37:34] "GET /source/ImgTest/Scheme1/Case49/Case49_GT.bmp HTTP/1.1" 200 -
+用户lr在Case49选择0，是否GT0
+172.18.50.60 - - [25/Apr/2022 14:38:23] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:38:23] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:38:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:38:23] "GET /source/ImgTest/Scheme1/Case50/Case50_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:38:23] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:38:23] "GET /source/ImgTest/Scheme1/Case50/Case50_GT.bmp HTTP/1.1" 200 -
+用户lr在Case50选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 14:38:59] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 14:38:59] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 14:39:00] "[33mGET /None HTTP/1.1[0m" 404 -
+172.18.50.60 - - [25/Apr/2022 14:39:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:39:00] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 14:39:01] "[33mGET /None HTTP/1.1[0m" 404 -
+172.18.50.60 - - [25/Apr/2022 15:42:47] "GET / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:42:47] "GET /static/css/style.css HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:42:47] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:42:47] "GET /static/images/m.jpg HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:42:47] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:42:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+用户cmx登录False
+172.18.50.60 - - [25/Apr/2022 15:42:51] "POST / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:42:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:42:51] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+用户cmx登录False
+172.18.50.60 - - [25/Apr/2022 15:43:08] "POST / HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:43:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:43:08] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+用户cmx登录True
+172.18.50.60 - - [25/Apr/2022 15:43:16] "[32mPOST / HTTP/1.1[0m" 302 -
+get_a_not_finish_case []
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:43:16] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:43:17] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:43:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:43:17] "GET /source/ImgTest/Scheme1/Case01/Case01_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:43:17] "GET /source/ImgTest/Scheme1/Case01/Case01_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case01选择0，是否GT1
+172.18.50.60 - - [25/Apr/2022 15:44:58] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:44:58] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:44:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:44:58] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:44:58] "GET /source/ImgTest/Scheme1/Case02/Case02_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:44:58] "GET /source/ImgTest/Scheme1/Case02/Case02_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case02选择0，是否GT1
+172.18.50.60 - - [25/Apr/2022 15:45:47] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:45:47] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:45:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:45:47] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:45:47] "GET /source/ImgTest/Scheme1/Case03/Case03_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:45:47] "GET /source/ImgTest/Scheme1/Case03/Case03_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case03选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 15:52:41] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:52:41] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:52:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:52:41] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:52:41] "GET /source/ImgTest/Scheme1/Case04/Case04_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:52:41] "GET /source/ImgTest/Scheme1/Case04/Case04_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case04选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 15:53:13] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:53:13] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:53:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:53:14] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:53:14] "GET /source/ImgTest/Scheme1/Case05/Case05_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:53:14] "GET /source/ImgTest/Scheme1/Case05/Case05_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case05选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 15:54:18] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:54:18] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:54:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:54:18] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:54:18] "GET /source/ImgTest/Scheme1/Case06/Case06_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:54:18] "GET /source/ImgTest/Scheme1/Case06/Case06_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case06选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 15:54:59] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:54:59] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:54:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:54:59] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:54:59] "GET /source/ImgTest/Scheme1/Case07/Case07_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:55:00] "GET /source/ImgTest/Scheme1/Case07/Case07_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case07选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 15:56:05] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:56:05] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:56:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:56:05] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:56:05] "GET /source/ImgTest/Scheme1/Case08/Case08_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:56:05] "GET /source/ImgTest/Scheme1/Case08/Case08_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case08选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 15:56:57] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:56:57] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:56:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:56:57] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:56:57] "GET /source/ImgTest/Scheme1/Case09/Case09_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:56:57] "GET /source/ImgTest/Scheme1/Case09/Case09_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case09选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 15:57:27] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:57:27] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:57:27] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:57:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:57:27] "GET /source/ImgTest/Scheme1/Case10/Case10_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:57:27] "GET /source/ImgTest/Scheme1/Case10/Case10_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case10选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 15:59:53] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 15:59:53] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:59:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:59:53] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 15:59:53] "GET /source/ImgTest/Scheme1/Case11/Case11_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 15:59:53] "GET /source/ImgTest/Scheme1/Case11/Case11_GT.bmp HTTP/1.1" 200 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 16:00:01] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 16:00:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 16:00:01] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 16:00:01] "GET /source/ImgTest/Scheme1/Case11/Case11_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 16:00:01] "GET /source/ImgTest/Scheme1/Case11/Case11_GT.bmp HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 309, in execute
+    write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 284, in write
+    self.wfile.write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+10.1.25.145 - - [25/Apr/2022 17:32:24] "GET /service HTTP/1.1" 200 -
+10.1.25.145 - - [25/Apr/2022 17:32:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:24] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:24] "[33mGET /None HTTP/1.1[0m" 404 -
+10.1.25.145 - - [25/Apr/2022 17:32:24] "[33mGET /None HTTP/1.1[0m" 404 -
+analyse_res ['Case01,cmx,是,0', 'Case01,czw,是,0', 'Case01,lr,是,0', 'Case01,qhn,否,0', 'Case01,wj,是,0', 'Case01,zxz,差不多,0', 'Case02,cmx,是,0', 'Case02,czw,是,0', 'Case02,lr,是,0', 'Case02,qhn,否,0', 'Case02,wj,是,0', 'Case02,zxz,是,0', 'Case03,cmx,差不多,0', 'Case03,czw,差不多,0', 'Case03,lr,是,0', 'Case03,qhn,是,0', 'Case03,wj,是,0', 'Case03,zxz,是,0', 'Case04,cmx,是,0', 'Case04,czw,是,0', 'Case04,lr,是,0', 'Case04,qhn,否,0', 'Case04,wj,是,0', 'Case04,zxz,否,0', 'Case05,cmx,差不多,0', 'Case05,czw,差不多,0', 'Case05,lr,差不多,0', 'Case05,qhn,差不多,0', 'Case05,wj,差不多,0', 'Case05,zxz,差不多,0', 'Case06,cmx,差不多,0', 'Case06,czw,差不多,0', 'Case06,lr,否,0', 'Case06,qhn,否,0', 'Case06,wj,差不多,0', 'Case06,zxz,差不多,0', 'Case07,cmx,差不多,0', 'Case07,czw,差不多,0', 'Case07,lr,否,0', 'Case07,qhn,差不多,0', 'Case07,wj,差不多,0', 'Case07,zxz,差不多,0', 'Case08,cmx,是,0', 'Case08,czw,是,0', 'Case08,lr,是,0', 'Case08,qhn,否,0', 'Case08,wj,差不多,0', 'Case08,zxz,否,0', 'Case09,cmx,是,0', 'Case09,czw,是,0', 'Case09,lr,是,0', 'Case09,qhn,否,0', 'Case09,wj,是,0', 'Case09,zxz,是,0', 'Case10,cmx,差不多,0', 'Case10,czw,差不多,0', 'Case10,lr,是,0', 'Case10,qhn,否,0', 'Case10,wj,是,0', 'Case10,zxz,差不多,0', 'Case11,czw,差不多,0', 'Case11,lr,是,0', 'Case11,qhn,差不多,0', 'Case11,wj,差不多,0', 'Case11,zxz,差不多,0', 'Case12,czw,是,0', 'Case12,lr,是,0', 'Case12,qhn,否,0', 'Case12,wj,差不多,0', 'Case12,zxz,差不多,0', 'Case13,czw,是,0', 'Case13,lr,是,0', 'Case13,qhn,差不多,0', 'Case13,wj,差不多,0', 'Case13,zxz,差不多,0', 'Case14,czw,是,0', 'Case14,lr,是,0', 'Case14,qhn,差不多,0', 'Case14,wj,是,0', 'Case14,zxz,是,0', 'Case15,czw,差不多,0', 'Case15,lr,差不多,0', 'Case15,qhn,差不多,0', 'Case15,wj,差不多,0', 'Case15,zxz,否,0', 'Case16,czw,否,0', 'Case16,lr,差不多,0', 'Case16,qhn,否,0', 'Case16,wj,差不多,0', 'Case16,zxz,是,0', 'Case17,czw,差不多,0', 'Case17,lr,是,0', 'Case17,qhn,否,0', 'Case17,wj,差不多,0', 'Case17,zxz,差不多,0', 'Case18,czw,否,0', 'Case18,lr,是,0', 'Case18,qhn,否,0', 'Case18,wj,差不多,0', 'Case18,zxz,否,0', 'Case19,czw,差不多,0', 'Case19,lr,是,0', 'Case19,qhn,否,0', 'Case19,wj,差不多,0', 'Case19,zxz,是,0', 'Case20,czw,差不多,0', 'Case20,lr,是,0', 'Case20,qhn,否,0', 'Case20,wj,差不多,0', 'Case20,zxz,差不多,0', 'Case21,czw,是,0', 'Case21,lr,是,0', 'Case21,qhn,否,0', 'Case21,wj,差不多,0', 'Case21,zxz,差不多,0', 'Case22,czw,差不多,0', 'Case22,lr,是,0', 'Case22,qhn,否,0', 'Case22,wj,是,0', 'Case22,zxz,是,0', 'Case23,czw,差不多,0', 'Case23,lr,是,0', 'Case23,qhn,否,0', 'Case23,wj,差不多,0', 'Case23,zxz,是,0', 'Case24,czw,差不多,0', 'Case24,lr,是,0', 'Case24,qhn,是,0', 'Case24,wj,是,0', 'Case24,zxz,是,0', 'Case25,czw,否,0', 'Case25,lr,是,0', 'Case25,qhn,是,0', 'Case25,wj,是,0', 'Case25,zxz,是,0', 'Case26,czw,差不多,0', 'Case26,lr,差不多,0', 'Case26,qhn,否,0', 'Case26,wj,差不多,0', 'Case26,zxz,否,0', 'Case27,czw,是,0', 'Case27,lr,是,0', 'Case27,qhn,否,0', 'Case27,wj,是,0', 'Case27,zxz,是,0', 'Case28,czw,是,0', 'Case28,lr,是,0', 'Case28,qhn,差不多,0', 'Case28,wj,是,0', 'Case28,zxz,差不多,0', 'Case29,czw,差不多,0', 'Case29,lr,差不多,0', 'Case29,qhn,否,0', 'Case29,wj,否,0', 'Case29,zxz,差不多,0', 'Case30,czw,否,0', 'Case30,lr,是,0', 'Case30,qhn,差不多,0', 'Case30,wj,差不多,0', 'Case30,zxz,是,0', 'Case31,czw,是,0', 'Case31,lr,是,0', 'Case31,qhn,是,0', 'Case31,wj,是,0', 'Case31,zxz,差不多,0', 'Case32,czw,是,0', 'Case32,lr,是,0', 'Case32,qhn,差不多,0', 'Case32,wj,是,0', 'Case32,zxz,差不多,0', 'Case33,czw,是,0', 'Case33,lr,是,0', 'Case33,qhn,否,0', 'Case33,wj,否,0', 'Case33,zxz,否,0', 'Case34,czw,差不多,0', 'Case34,lr,差不多,0', 'Case34,qhn,否,0', 'Case34,wj,是,0', 'Case34,zxz,是,0', 'Case35,czw,差不多,0', 'Case35,lr,是,0', 'Case35,qhn,差不多,0', 'Case35,wj,差不多,0', 'Case35,zxz,差不多,0', 'Case36,czw,差不多,0', 'Case36,lr,差不多,0', 'Case36,qhn,是,0', 'Case36,wj,差不多,0', 'Case36,zxz,是,0', 'Case37,czw,差不多,0', 'Case37,lr,是,0', 'Case37,qhn,是,0', 'Case37,wj,是,0', 'Case37,zxz,是,0', 'Case38,czw,是,0', 'Case38,lr,是,0', 'Case38,qhn,是,0', 'Case38,wj,差不多,0', 'Case38,zxz,差不多,0', 'Case39,czw,是,0', 'Case39,lr,是,0', 'Case39,qhn,差不多,0', 'Case39,wj,是,0', 'Case39,zxz,是,0', 'Case40,czw,是,0', 'Case40,lr,是,0', 'Case40,qhn,是,0', 'Case40,wj,否,0', 'Case40,zxz,是,0', 'Case41,czw,是,0', 'Case41,lr,是,0', 'Case41,qhn,否,0', 'Case41,wj,否,0', 'Case41,zxz,是,0', 'Case42,czw,差不多,0', 'Case42,lr,是,0', 'Case42,qhn,否,0', 'Case42,wj,否,0', 'Case42,zxz,否,0', 'Case43,czw,差不多,0', 'Case43,lr,差不多,0', 'Case43,qhn,差不多,0', 'Case43,wj,否,0', 'Case43,zxz,差不多,0', 'Case44,czw,差不多,0', 'Case44,lr,差不多,0', 'Case44,qhn,差不多,0', 'Case44,wj,是,0', 'Case44,zxz,差不多,0', 'Case45,czw,是,0', 'Case45,lr,是,0', 'Case45,qhn,是,0', 'Case45,wj,是,0', 'Case45,zxz,否,0', 'Case46,czw,是,0', 'Case46,lr,是,0', 'Case46,qhn,是,0', 'Case46,wj,是,0', 'Case46,zxz,差不多,0', 'Case47,czw,是,0', 'Case47,lr,是,0', 'Case47,qhn,否,0', 'Case47,wj,否,0', 'Case47,zxz,差不多,0', 'Case48,czw,否,0', 'Case48,lr,否,0', 'Case48,qhn,否,0', 'Case48,wj,否,0', 'Case48,zxz,否,0', 'Case49,czw,否,0', 'Case49,lr,否,0', 'Case49,qhn,否,0', 'Case49,wj,否,0', 'Case49,zxz,否,0', 'Case50,czw,否,0', 'Case50,lr,是,0', 'Case50,qhn,否,0', 'Case50,wj,是,0', 'Case50,zxz,差不多,0', 'Case01,未选GT:1,选择GT:4,差不多:1', 'Case02,未选GT:1,选择GT:5,差不多:0', 'Case03,未选GT:0,选择GT:4,差不多:2', 'Case04,未选GT:2,选择GT:4,差不多:0', 'Case05,未选GT:0,选择GT:0,差不多:6', 'Case06,未选GT:2,选择GT:0,差不多:4', 'Case07,未选GT:1,选择GT:0,差不多:5', 'Case08,未选GT:2,选择GT:3,差不多:1', 'Case09,未选GT:1,选择GT:5,差不多:0', 'Case10,未选GT:1,选择GT:2,差不多:3', 'Case11,未选GT:0,选择GT:1,差不多:4', 'Case12,未选GT:1,选择GT:2,差不多:2', 'Case13,未选GT:0,选择GT:2,差不多:3', 'Case14,未选GT:0,选择GT:4,差不多:1', 'Case15,未选GT:1,选择GT:0,差不多:4', 'Case16,未选GT:2,选择GT:1,差不多:2', 'Case17,未选GT:1,选择GT:1,差不多:3', 'Case18,未选GT:3,选择GT:1,差不多:1', 'Case19,未选GT:1,选择GT:2,差不多:2', 'Case20,未选GT:1,选择GT:1,差不多:3', 'Case21,未选GT:1,选择GT:2,差不多:2', 'Case22,未选GT:1,选择GT:3,差不多:1', 'Case23,未选GT:1,选择GT:2,差不多:2', 'Case24,未选GT:0,选择GT:4,差不多:1', 'Case25,未选GT:1,选择GT:4,差不多:0', 'Case26,未选GT:2,选择GT:0,差不多:3', 'Case27,未选GT:1,选择GT:4,差不多:0', 'Case28,未选GT:0,选择GT:3,差不多:2', 'Case29,未选GT:2,选择GT:0,差不多:3', 'Case30,未选GT:1,选择GT:2,差不多:2', 'Case31,未选GT:0,选择GT:4,差不多:1', 'Case32,未选GT:0,选择GT:3,差不多:2', 'Case33,未选GT:3,选择GT:2,差不多:0', 'Case34,未选GT:1,选择GT:2,差不多:2', 'Case35,未选GT:0,选择GT:1,差不多:4', 'Case36,未选GT:0,选择GT:2,差不多:3', 'Case37,未选GT:0,选择GT:4,差不多:1', 'Case38,未选GT:0,选择GT:3,差不多:2', 'Case39,未选GT:0,选择GT:4,差不多:1', 'Case40,未选GT:1,选择GT:4,差不多:0', 'Case41,未选GT:2,选择GT:3,差不多:0', 'Case42,未选GT:3,选择GT:1,差不多:1', 'Case43,未选GT:1,选择GT:0,差不多:4', 'Case44,未选GT:0,选择GT:1,差不多:4', 'Case45,未选GT:1,选择GT:4,差不多:0', 'Case46,未选GT:0,选择GT:4,差不多:1', 'Case47,未选GT:2,选择GT:2,差不多:1', 'Case48,未选GT:5,选择GT:0,差不多:0', 'Case49,未选GT:5,选择GT:0,差不多:0', 'Case50,未选GT:2,选择GT:2,差不多:1']
+analyse_res [[1, [1, 4, 1]], [2, [1, 5, 0]], [3, [0, 4, 2]], [4, [2, 4, 0]], [5, [0, 0, 6]], [6, [2, 0, 4]], [7, [1, 0, 5]], [8, [2, 3, 1]], [9, [1, 5, 0]], [10, [1, 2, 3]], [11, [0, 1, 4]], [12, [1, 2, 2]], [13, [0, 2, 3]], [14, [0, 4, 1]], [15, [1, 0, 4]], [16, [2, 1, 2]], [17, [1, 1, 3]], [18, [3, 1, 1]], [19, [1, 2, 2]], [20, [1, 1, 3]], [21, [1, 2, 2]], [22, [1, 3, 1]], [23, [1, 2, 2]], [24, [0, 4, 1]], [25, [1, 4, 0]], [26, [2, 0, 3]], [27, [1, 4, 0]], [28, [0, 3, 2]], [29, [2, 0, 3]], [30, [1, 2, 2]], [31, [0, 4, 1]], [32, [0, 3, 2]], [33, [3, 2, 0]], [34, [1, 2, 2]], [35, [0, 1, 4]], [36, [0, 2, 3]], [37, [0, 4, 1]], [38, [0, 3, 2]], [39, [0, 4, 1]], [40, [1, 4, 0]], [41, [2, 3, 0]], [42, [3, 1, 1]], [43, [1, 0, 4]], [44, [0, 1, 4]], [45, [1, 4, 0]], [46, [0, 4, 1]], [47, [2, 2, 1]], [48, [5, 0, 0]], [49, [5, 0, 0]], [50, [2, 2, 1]]]
+res Case01,cmx,是,0!Case01,czw,是,0!Case01,lr,是,0!Case01,qhn,否,0!Case01,wj,是,0!Case01,zxz,差不多,0!Case02,cmx,是,0!Case02,czw,是,0!Case02,lr,是,0!Case02,qhn,否,0!Case02,wj,是,0!Case02,zxz,是,0!Case03,cmx,差不多,0!Case03,czw,差不多,0!Case03,lr,是,0!Case03,qhn,是,0!Case03,wj,是,0!Case03,zxz,是,0!Case04,cmx,是,0!Case04,czw,是,0!Case04,lr,是,0!Case04,qhn,否,0!Case04,wj,是,0!Case04,zxz,否,0!Case05,cmx,差不多,0!Case05,czw,差不多,0!Case05,lr,差不多,0!Case05,qhn,差不多,0!Case05,wj,差不多,0!Case05,zxz,差不多,0!Case06,cmx,差不多,0!Case06,czw,差不多,0!Case06,lr,否,0!Case06,qhn,否,0!Case06,wj,差不多,0!Case06,zxz,差不多,0!Case07,cmx,差不多,0!Case07,czw,差不多,0!Case07,lr,否,0!Case07,qhn,差不多,0!Case07,wj,差不多,0!Case07,zxz,差不多,0!Case08,cmx,是,0!Case08,czw,是,0!Case08,lr,是,0!Case08,qhn,否,0!Case08,wj,差不多,0!Case08,zxz,否,0!Case09,cmx,是,0!Case09,czw,是,0!Case09,lr,是,0!Case09,qhn,否,0!Case09,wj,是,0!Case09,zxz,是,0!Case10,cmx,差不多,0!Case10,czw,差不多,0!Case10,lr,是,0!Case10,qhn,否,0!Case10,wj,是,0!Case10,zxz,差不多,0!Case11,czw,差不多,0!Case11,lr,是,0!Case11,qhn,差不多,0!Case11,wj,差不多,0!Case11,zxz,差不多,0!Case12,czw,是,0!Case12,lr,是,0!Case12,qhn,否,0!Case12,wj,差不多,0!Case12,zxz,差不多,0!Case13,czw,是,0!Case13,lr,是,0!Case13,qhn,差不多,0!Case13,wj,差不多,0!Case13,zxz,差不多,0!Case14,czw,是,0!Case14,lr,是,0!Case14,qhn,差不多,0!Case14,wj,是,0!Case14,zxz,是,0!Case15,czw,差不多,0!Case15,lr,差不多,0!Case15,qhn,差不多,0!Case15,wj,差不多,0!Case15,zxz,否,0!Case16,czw,否,0!Case16,lr,差不多,0!Case16,qhn,否,0!Case16,wj,差不多,0!Case16,zxz,是,0!Case17,czw,差不多,0!Case17,lr,是,0!Case17,qhn,否,0!Case17,wj,差不多,0!Case17,zxz,差不多,0!Case18,czw,否,0!Case18,lr,是,0!Case18,qhn,否,0!Case18,wj,差不多,0!Case18,zxz,否,0!Case19,czw,差不多,0!Case19,lr,是,0!Case19,qhn,否,0!Case19,wj,差不多,0!Case19,zxz,是,0!Case20,czw,差不多,0!Case20,lr,是,0!Case20,qhn,否,0!Case20,wj,差不多,0!Case20,zxz,差不多,0!Case21,czw,是,0!Case21,lr,是,0!Case21,qhn,否,0!Case21,wj,差不多,0!Case21,zxz,差不多,0!Case22,czw,差不多,0!Case22,lr,是,0!Case22,qhn,否,0!Case22,wj,是,0!Case22,zxz,是,0!Case23,czw,差不多,0!Case23,lr,是,0!Case23,qhn,否,0!Case23,wj,差不多,0!Case23,zxz,是,0!Case24,czw,差不多,0!Case24,lr,是,0!Case24,qhn,是,0!Case24,wj,是,0!Case24,zxz,是,0!Case25,czw,否,0!Case25,lr,是,0!Case25,qhn,是,0!Case25,wj,是,0!Case25,zxz,是,0!Case26,czw,差不多,0!Case26,lr,差不多,0!Case26,qhn,否,0!Case26,wj,差不多,0!Case26,zxz,否,0!Case27,czw,是,0!Case27,lr,是,0!Case27,qhn,否,0!Case27,wj,是,0!Case27,zxz,是,0!Case28,czw,是,0!Case28,lr,是,0!Case28,qhn,差不多,0!Case28,wj,是,0!Case28,zxz,差不多,0!Case29,czw,差不多,0!Case29,lr,差不多,0!Case29,qhn,否,0!Case29,wj,否,0!Case29,zxz,差不多,0!Case30,czw,否,0!Case30,lr,是,0!Case30,qhn,差不多,0!Case30,wj,差不多,0!Case30,zxz,是,0!Case31,czw,是,0!Case31,lr,是,0!Case31,qhn,是,0!Case31,wj,是,0!Case31,zxz,差不多,0!Case32,czw,是,0!Case32,lr,是,0!Case32,qhn,差不多,0!Case32,wj,是,0!Case32,zxz,差不多,0!Case33,czw,是,0!Case33,lr,是,0!Case33,qhn,否,0!Case33,wj,否,0!Case33,zxz,否,0!Case34,czw,差不多,0!Case34,lr,差不多,0!Case34,qhn,否,0!Case34,wj,是,0!Case34,zxz,是,0!Case35,czw,差不多,0!Case35,lr,是,0!Case35,qhn,差不多,0!Case35,wj,差不多,0!Case35,zxz,差不多,0!Case36,czw,差不多,0!Case36,lr,差不多,0!Case36,qhn,是,0!Case36,wj,差不多,0!Case36,zxz,是,0!Case37,czw,差不多,0!Case37,lr,是,0!Case37,qhn,是,0!Case37,wj,是,0!Case37,zxz,是,0!Case38,czw,是,0!Case38,lr,是,0!Case38,qhn,是,0!Case38,wj,差不多,0!Case38,zxz,差不多,0!Case39,czw,是,0!Case39,lr,是,0!Case39,qhn,差不多,0!Case39,wj,是,0!Case39,zxz,是,0!Case40,czw,是,0!Case40,lr,是,0!Case40,qhn,是,0!Case40,wj,否,0!Case40,zxz,是,0!Case41,czw,是,0!Case41,lr,是,0!Case41,qhn,否,0!Case41,wj,否,0!Case41,zxz,是,0!Case42,czw,差不多,0!Case42,lr,是,0!Case42,qhn,否,0!Case42,wj,否,0!Case42,zxz,否,0!Case43,czw,差不多,0!Case43,lr,差不多,0!Case43,qhn,差不多,0!Case43,wj,否,0!Case43,zxz,差不多,0!Case44,czw,差不多,0!Case44,lr,差不多,0!Case44,qhn,差不多,0!Case44,wj,是,0!Case44,zxz,差不多,0!Case45,czw,是,0!Case45,lr,是,0!Case45,qhn,是,0!Case45,wj,是,0!Case45,zxz,否,0!Case46,czw,是,0!Case46,lr,是,0!Case46,qhn,是,0!Case46,wj,是,0!Case46,zxz,差不多,0!Case47,czw,是,0!Case47,lr,是,0!Case47,qhn,否,0!Case47,wj,否,0!Case47,zxz,差不多,0!Case48,czw,否,0!Case48,lr,否,0!Case48,qhn,否,0!Case48,wj,否,0!Case48,zxz,否,0!Case49,czw,否,0!Case49,lr,否,0!Case49,qhn,否,0!Case49,wj,否,0!Case49,zxz,否,0!Case50,czw,否,0!Case50,lr,是,0!Case50,qhn,否,0!Case50,wj,是,0!Case50,zxz,差不多,0!Case01,未选GT:1,选择GT:4,差不多:1!Case02,未选GT:1,选择GT:5,差不多:0!Case03,未选GT:0,选择GT:4,差不多:2!Case04,未选GT:2,选择GT:4,差不多:0!Case05,未选GT:0,选择GT:0,差不多:6!Case06,未选GT:2,选择GT:0,差不多:4!Case07,未选GT:1,选择GT:0,差不多:5!Case08,未选GT:2,选择GT:3,差不多:1!Case09,未选GT:1,选择GT:5,差不多:0!Case10,未选GT:1,选择GT:2,差不多:3!Case11,未选GT:0,选择GT:1,差不多:4!Case12,未选GT:1,选择GT:2,差不多:2!Case13,未选GT:0,选择GT:2,差不多:3!Case14,未选GT:0,选择GT:4,差不多:1!Case15,未选GT:1,选择GT:0,差不多:4!Case16,未选GT:2,选择GT:1,差不多:2!Case17,未选GT:1,选择GT:1,差不多:3!Case18,未选GT:3,选择GT:1,差不多:1!Case19,未选GT:1,选择GT:2,差不多:2!Case20,未选GT:1,选择GT:1,差不多:3!Case21,未选GT:1,选择GT:2,差不多:2!Case22,未选GT:1,选择GT:3,差不多:1!Case23,未选GT:1,选择GT:2,差不多:2!Case24,未选GT:0,选择GT:4,差不多:1!Case25,未选GT:1,选择GT:4,差不多:0!Case26,未选GT:2,选择GT:0,差不多:3!Case27,未选GT:1,选择GT:4,差不多:0!Case28,未选GT:0,选择GT:3,差不多:2!Case29,未选GT:2,选择GT:0,差不多:3!Case30,未选GT:1,选择GT:2,差不多:2!Case31,未选GT:0,选择GT:4,差不多:1!Case32,未选GT:0,选择GT:3,差不多:2!Case33,未选GT:3,选择GT:2,差不多:0!Case34,未选GT:1,选择GT:2,差不多:2!Case35,未选GT:0,选择GT:1,差不多:4!Case36,未选GT:0,选择GT:2,差不多:3!Case37,未选GT:0,选择GT:4,差不多:1!Case38,未选GT:0,选择GT:3,差不多:2!Case39,未选GT:0,选择GT:4,差不多:1!Case40,未选GT:1,选择GT:4,差不多:0!Case41,未选GT:2,选择GT:3,差不多:0!Case42,未选GT:3,选择GT:1,差不多:1!Case43,未选GT:1,选择GT:0,差不多:4!Case44,未选GT:0,选择GT:1,差不多:4!Case45,未选GT:1,选择GT:4,差不多:0!Case46,未选GT:0,选择GT:4,差不多:1!Case47,未选GT:2,选择GT:2,差不多:1!Case48,未选GT:5,选择GT:0,差不多:0!Case49,未选GT:5,选择GT:0,差不多:0!Case50,未选GT:2,选择GT:2,差不多:1
+piRes 1,4,1!1,5,0!0,4,2!2,4,0!0,0,6!2,0,4!1,0,5!2,3,1!1,5,0!1,2,3!0,1,4!1,2,2!0,2,3!0,4,1!1,0,4!2,1,2!1,1,3!3,1,1!1,2,2!1,1,3!1,2,2!1,3,1!1,2,2!0,4,1!1,4,0!2,0,3!1,4,0!0,3,2!2,0,3!1,2,2!0,4,1!0,3,2!3,2,0!1,2,2!0,1,4!0,2,3!0,4,1!0,3,2!0,4,1!1,4,0!2,3,0!3,1,1!1,0,4!0,1,4!1,4,0!0,4,1!2,2,1!5,0,0!5,0,0!2,2,1
+10.1.25.145 - - [25/Apr/2022 17:32:29] "POST /analyze HTTP/1.1" 200 -
+10.1.25.145 - - [25/Apr/2022 17:32:29] "[36mGET /static/css/fontawesome.min.css HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:29] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:29] "[36mGET /static/js/jquery-3.3.1.min.js HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:29] "[36mGET /static/js/moment.min.js HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:29] "[36mGET /static/js/Chart.min.js HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:29] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+10.1.25.145 - - [25/Apr/2022 17:32:29] "[36mGET /static/js/tooplate-scripts.js HTTP/1.1[0m" 304 -
+用户cmx在Case11选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:45:31] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:45:31] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:45:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:45:31] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:45:31] "GET /source/ImgTest/Scheme1/Case12/Case12_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:45:31] "GET /source/ImgTest/Scheme1/Case12/Case12_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case12选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:46:17] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:46:17] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:46:17] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:46:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:46:17] "GET /source/ImgTest/Scheme1/Case13/Case13_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:46:17] "GET /source/ImgTest/Scheme1/Case13/Case13_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case13选择0，是否GT1
+172.18.50.60 - - [25/Apr/2022 19:47:28] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:47:28] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:47:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:47:28] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:47:28] "GET /source/ImgTest/Scheme1/Case14/Case14_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:47:28] "GET /source/ImgTest/Scheme1/Case14/Case14_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case14选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:52:04] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:52:04] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:52:04] "GET /source/ImgTest/Scheme1/Case15/Case15_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:52:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:52:04] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:52:04] "GET /source/ImgTest/Scheme1/Case15/Case15_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case15选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:53:13] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:53:13] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:53:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:53:13] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:53:13] "GET /source/ImgTest/Scheme1/Case16/Case16_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:53:13] "GET /source/ImgTest/Scheme1/Case16/Case16_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:53:18] "GET /source/ImgTest/Scheme1/Case16/Case16_pred.bmp HTTP/1.1" 200 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:53:22] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:53:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:53:22] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:53:22] "[36mGET /source/ImgTest/Scheme1/Case16/Case16_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:53:22] "GET /source/ImgTest/Scheme1/Case16/Case16_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case16选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:54:26] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:54:26] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:54:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:54:26] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:54:26] "GET /source/ImgTest/Scheme1/Case17/Case17_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:54:26] "GET /source/ImgTest/Scheme1/Case17/Case17_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case17选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:54:52] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:54:52] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:54:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:54:52] "GET /source/ImgTest/Scheme1/Case18/Case18_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:54:52] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:54:52] "GET /source/ImgTest/Scheme1/Case18/Case18_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case18选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:56:59] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:56:59] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:56:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:56:59] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:56:59] "GET /source/ImgTest/Scheme1/Case19/Case19_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:56:59] "GET /source/ImgTest/Scheme1/Case19/Case19_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case19选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:57:32] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:57:32] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:57:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:32] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:32] "GET /source/ImgTest/Scheme1/Case20/Case20_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:57:32] "GET /source/ImgTest/Scheme1/Case20/Case20_pred.bmp HTTP/1.1" 200 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:57:36] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:57:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:36] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:36] "GET /source/ImgTest/Scheme1/Case20/Case20_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:57:36] "[35m[1mGET /source/ImgTest/Scheme1/Case20/Case20_GT.bmp HTTP/1.1[0m" 206 -
+172.18.50.60 - - [25/Apr/2022 19:57:36] "[35m[1mGET /source/ImgTest/Scheme1/Case20/Case20_GT.bmp HTTP/1.1[0m" 206 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:57:45] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:57:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:45] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:45] "[36mGET /source/ImgTest/Scheme1/Case20/Case20_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:45] "[35m[1mGET /source/ImgTest/Scheme1/Case20/Case20_pred.bmp HTTP/1.1[0m" 206 -
+172.18.50.60 - - [25/Apr/2022 19:57:45] "[35m[1mGET /source/ImgTest/Scheme1/Case20/Case20_pred.bmp HTTP/1.1[0m" 206 -
+172.18.50.60 - - [25/Apr/2022 19:57:45] "[36mGET /source/ImgTest/Scheme1/Case20/Case20_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:57:49] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:57:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:49] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:49] "[36mGET /source/ImgTest/Scheme1/Case20/Case20_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:57:49] "[36mGET /source/ImgTest/Scheme1/Case20/Case20_pred.bmp HTTP/1.1[0m" 304 -
+用户cmx在Case20选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:58:53] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:58:54] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:58:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:58:54] "GET /source/ImgTest/Scheme1/Case21/Case21_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:58:54] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:58:54] "GET /source/ImgTest/Scheme1/Case21/Case21_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case21选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 19:59:55] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 19:59:55] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:59:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:59:55] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 19:59:55] "GET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 19:59:55] "GET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:01] "GET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1" 200 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:02] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:02] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:02] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:02] "[35m[1mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 206 -
+172.18.50.60 - - [25/Apr/2022 20:00:02] "[35m[1mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 206 -
+172.18.50.60 - - [25/Apr/2022 20:00:02] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:05] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:05] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:05] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:05] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:12] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:12] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:12] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:12] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:15] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:15] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:15] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:15] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:18] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:18] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:18] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:18] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:22] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:22] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:22] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:22] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:28] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:28] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:28] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:28] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:31] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:32] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:32] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:32] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:32] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:34] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:34] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_GT.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:34] "[36mGET /source/ImgTest/Scheme1/Case22/Case22_pred.bmp HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:34] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+用户cmx在Case22选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:00:42] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:00:42] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:42] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:00:42] "GET /source/ImgTest/Scheme1/Case23/Case23_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:00:42] "GET /source/ImgTest/Scheme1/Case23/Case23_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case23选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:01:31] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:01:31] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:01:31] "GET /source/ImgTest/Scheme1/Case24/Case24_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:01:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:01:31] "GET /source/ImgTest/Scheme1/Case24/Case24_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:01:31] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+用户cmx在Case24选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:01:54] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:01:54] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:01:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:01:54] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:01:54] "GET /source/ImgTest/Scheme1/Case25/Case25_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:01:54] "GET /source/ImgTest/Scheme1/Case25/Case25_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case25选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:02:31] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:02:31] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:02:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:02:31] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:02:31] "GET /source/ImgTest/Scheme1/Case26/Case26_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:02:31] "GET /source/ImgTest/Scheme1/Case26/Case26_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case26选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:03:42] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:03:42] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:03:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:03:42] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:03:42] "GET /source/ImgTest/Scheme1/Case27/Case27_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:03:42] "GET /source/ImgTest/Scheme1/Case27/Case27_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case27选择0，是否GT1
+172.18.50.60 - - [25/Apr/2022 20:05:05] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:05:05] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:05:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:05:05] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:05:05] "GET /source/ImgTest/Scheme1/Case28/Case28_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:05:05] "GET /source/ImgTest/Scheme1/Case28/Case28_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case28选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:05:38] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:05:38] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:05:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:05:38] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:05:38] "GET /source/ImgTest/Scheme1/Case29/Case29_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:05:38] "GET /source/ImgTest/Scheme1/Case29/Case29_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case29选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:07:32] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:07:32] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:07:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:07:32] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:07:32] "GET /source/ImgTest/Scheme1/Case30/Case30_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:07:32] "GET /source/ImgTest/Scheme1/Case30/Case30_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case30选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:08:16] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:08:16] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:08:17] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:08:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:08:17] "GET /source/ImgTest/Scheme1/Case31/Case31_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:08:17] "GET /source/ImgTest/Scheme1/Case31/Case31_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case31选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:08:54] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:08:54] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:08:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:08:54] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:08:54] "GET /source/ImgTest/Scheme1/Case32/Case32_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:08:54] "GET /source/ImgTest/Scheme1/Case32/Case32_GT.bmp HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 309, in execute
+    write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 284, in write
+    self.wfile.write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+用户cmx在Case32选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:11:50] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:11:50] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:11:50] "GET /source/ImgTest/Scheme1/Case33/Case33_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:11:50] "GET /source/ImgTest/Scheme1/Case33/Case33_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:11:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:11:50] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+用户cmx在Case33选择0，是否GT0
+172.18.50.60 - - [25/Apr/2022 20:12:52] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:12:52] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:12:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:12:52] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:12:52] "GET /source/ImgTest/Scheme1/Case34/Case34_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:12:52] "GET /source/ImgTest/Scheme1/Case34/Case34_GT.bmp HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 309, in execute
+    write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 284, in write
+    self.wfile.write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+Error on request:
+Traceback (most recent call last):
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 309, in execute
+    write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 284, in write
+    self.wfile.write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+Error on request:
+Traceback (most recent call last):
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 309, in execute
+    write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 284, in write
+    self.wfile.write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+用户cmx在Case34选择0，是否GT0
+172.18.50.60 - - [25/Apr/2022 20:16:41] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:16:41] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:16:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:16:41] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:16:41] "GET /source/ImgTest/Scheme1/Case35/Case35_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:16:41] "GET /source/ImgTest/Scheme1/Case35/Case35_GT.bmp HTTP/1.1" 200 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:16:49] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:16:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:16:49] "GET /source/ImgTest/Scheme1/Case35/Case35_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:16:49] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:16:49] "GET /source/ImgTest/Scheme1/Case35/Case35_pred.bmp HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 309, in execute
+    write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 284, in write
+    self.wfile.write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+用户cmx在Case35选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:17:25] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:17:25] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:17:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:17:26] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:17:26] "GET /source/ImgTest/Scheme1/Case36/Case36_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:17:26] "GET /source/ImgTest/Scheme1/Case36/Case36_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case36选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:17:49] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:17:49] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:17:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:17:49] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:17:49] "GET /source/ImgTest/Scheme1/Case37/Case37_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:17:49] "GET /source/ImgTest/Scheme1/Case37/Case37_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case37选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:18:17] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:18:17] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:18:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:18:17] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:18:17] "GET /source/ImgTest/Scheme1/Case38/Case38_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:18:17] "GET /source/ImgTest/Scheme1/Case38/Case38_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case38选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:20:25] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:20:26] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:20:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:20:26] "GET /source/ImgTest/Scheme1/Case39/Case39_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:20:26] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:20:26] "GET /source/ImgTest/Scheme1/Case39/Case39_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case39选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 20:20:56] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:20:57] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:20:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:20:57] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:20:57] "GET /source/ImgTest/Scheme1/Case40/Case40_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:20:57] "GET /source/ImgTest/Scheme1/Case40/Case40_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case40选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 20:21:30] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:21:30] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:21:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:21:30] "GET /source/ImgTest/Scheme1/Case41/Case41_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:21:30] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:21:30] "GET /source/ImgTest/Scheme1/Case41/Case41_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case41选择0，是否GT1
+172.18.50.60 - - [25/Apr/2022 20:23:09] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:23:09] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:23:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:23:09] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:23:09] "GET /source/ImgTest/Scheme1/Case42/Case42_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:23:09] "GET /source/ImgTest/Scheme1/Case42/Case42_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case42选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 20:23:56] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:23:57] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:23:57] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:23:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:23:57] "GET /source/ImgTest/Scheme1/Case43/Case43_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:23:57] "GET /source/ImgTest/Scheme1/Case43/Case43_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case43选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:24:59] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:24:59] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:24:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:24:59] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:24:59] "GET /source/ImgTest/Scheme1/Case44/Case44_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:24:59] "GET /source/ImgTest/Scheme1/Case44/Case44_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case44选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:26:27] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:26:27] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:26:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:26:28] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:26:28] "GET /source/ImgTest/Scheme1/Case45/Case45_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:26:28] "GET /source/ImgTest/Scheme1/Case45/Case45_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case45选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:29:28] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:29:28] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:29:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:29:28] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:29:28] "GET /source/ImgTest/Scheme1/Case46/Case46_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:29:28] "GET /source/ImgTest/Scheme1/Case46/Case46_pred.bmp HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 309, in execute
+    write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/site-packages/werkzeug/serving.py", line 284, in write
+    self.wfile.write(data)
+  File "/disk1/chenzewen/anaconda3/envs/czw/lib/python3.8/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+TimeoutError: [Errno 110] Connection timed out
+用户cmx在Case46选择0，是否GT1
+172.18.50.60 - - [25/Apr/2022 20:34:06] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:34:06] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:34:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:34:07] "GET /source/ImgTest/Scheme1/Case47/Case47_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:34:07] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:34:07] "GET /source/ImgTest/Scheme1/Case47/Case47_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case47选择1，是否GT1
+172.18.50.60 - - [25/Apr/2022 20:36:42] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:36:43] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:36:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:36:43] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:36:43] "GET /source/ImgTest/Scheme1/Case48/Case48_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:36:43] "GET /source/ImgTest/Scheme1/Case48/Case48_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case48选择2，是否GT2
+172.18.50.60 - - [25/Apr/2022 20:39:32] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:39:32] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:39:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:39:32] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:39:32] "GET /source/ImgTest/Scheme1/Case49/Case49_pred.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:39:32] "GET /source/ImgTest/Scheme1/Case49/Case49_GT.bmp HTTP/1.1" 200 -
+用户cmx在Case49选择0，是否GT0
+172.18.50.60 - - [25/Apr/2022 20:46:23] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:46:23] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:46:24] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:46:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:46:24] "GET /source/ImgTest/Scheme1/Case50/Case50_GT.bmp HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:46:24] "GET /source/ImgTest/Scheme1/Case50/Case50_pred.bmp HTTP/1.1" 200 -
+用户cmx在Case50选择0，是否GT1
+172.18.50.60 - - [25/Apr/2022 20:46:43] "[32mPOST /service HTTP/1.1[0m" 302 -
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+get_a_not_finish_case ['Case01', 'Case02', 'Case03', 'Case04', 'Case05', 'Case06', 'Case07', 'Case08', 'Case09', 'Case10', 'Case11', 'Case12', 'Case13', 'Case14', 'Case15', 'Case16', 'Case17', 'Case18', 'Case19', 'Case20', 'Case21', 'Case22', 'Case23', 'Case24', 'Case25', 'Case26', 'Case27', 'Case28', 'Case29', 'Case30', 'Case31', 'Case32', 'Case33', 'Case34', 'Case35', 'Case36', 'Case37', 'Case38', 'Case39', 'Case40', 'Case41', 'Case42', 'Case43', 'Case44', 'Case45', 'Case46', 'Case47', 'Case48', 'Case49', 'Case50']
+172.18.50.60 - - [25/Apr/2022 20:46:43] "GET /service HTTP/1.1" 200 -
+172.18.50.60 - - [25/Apr/2022 20:46:43] "[33mGET /None HTTP/1.1[0m" 404 -
+172.18.50.60 - - [25/Apr/2022 20:46:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:46:43] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [25/Apr/2022 20:46:45] "[33mGET /None HTTP/1.1[0m" 404 -
+172.18.50.60 - - [28/Apr/2022 09:33:55] "GET / HTTP/1.1" 200 -
+172.18.50.60 - - [28/Apr/2022 09:33:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+172.18.50.60 - - [28/Apr/2022 09:33:56] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
