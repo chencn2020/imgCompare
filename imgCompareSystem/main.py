@@ -6,6 +6,7 @@ from utils import checkUseInfo
 from utils import compareImgDatabase as CID
 import random
 import string
+import threading
 
 # compareImgDatabase = 'test1'
 # compareImgDatabase = 'TinyISP_ResizeCrop61_TIQA_20k'
@@ -19,6 +20,8 @@ compareDB = CID.compareImgDatabase(compareImgDatabase)
 userCookie = {}
 imgInfoCookie = {}
 userChoiceCookie = {}
+get_case_lock = threading.Lock()
+get_case_submit_lock = threading.Lock()
 
 userCase = {
 
@@ -42,6 +45,7 @@ def get_key_from_dict(searchDict, searchValue):
 
 @app.route('/', methods=['GET', 'POST'])
 def log_in():
+    global userCase
     if request.method == "GET":
         return render_template("index.html")
     elif request.method == "POST":
@@ -52,6 +56,7 @@ def log_in():
         print('用户{}登录{}'.format(userName, res))
 
         if res:
+            userCase[userName] = [None for i in range(16)]
             red = redirect('/service')
             cookie_data = get_random_cookie()
             userCookie[userName] = cookie_data
@@ -111,7 +116,7 @@ def loopPic(choice):
 @app.route('/service', methods=['POST', 'GET'])
 def server():
     global load_info
-    global userCase
+    global get_case_lock
 
     user_token = request.cookies.get("token")
     userName = get_key_from_dict(userCookie, user_token)
@@ -121,37 +126,52 @@ def server():
     if userName:
         if request.method == "GET":
 
-            [finish_num, full_num] = compareDB.get_finish_info(userName)
-            get_img_info = compareDB.get_a_not_finish_case(userName, userCase)
-            print('get a case', get_img_info[0])
+            try:
+                get_case_lock.acquire(True)
+                global userCase
+                [finish_num, full_num] = compareDB.get_finish_info(userName)
+                get_img_info = compareDB.get_a_not_finish_case(userName, userCase)
+                print('get a case', get_img_info[0])
 
-            if get_img_info[0] is not None:
-                userCase[userName] = get_img_info[0]
-                tempInfo = load_info
-                load_info = None
-            else:
-                tempInfo = "所有case均已完成"
+                if get_img_info[0] is not None:
+                    userCase[userName] = get_img_info
+                    tempInfo = load_info
+                    load_info = None
+                else:
+                    userCase[userName] = [None for i in range(16)]
+                    tempInfo = "所有case均已完成"
+                print('get a case', userCase)
+            finally:
+                get_case_lock.release()
 
             return render_template("imgCompareSystemMainUI.html", user_name=userName, dataset_judge=compareImgDatabase,
-                                   now_case=get_img_info[0], finish_num=finish_num, full_num=full_num,
-                                   img_url_1=get_img_info[1], img_url_2=get_img_info[2],img_url_3=get_img_info[3], img_url_4=get_img_info[4],img_url_5=get_img_info[5],
-                                   img_url_6=get_img_info[6], img_url_7=get_img_info[7], img_url_8=get_img_info[8], img_url_9=get_img_info[9], img_url_10=get_img_info[10],
-                                   img_url_11=get_img_info[11], img_url_12=get_img_info[12], img_url_13=get_img_info[13], img_url_14=get_img_info[14], img_url_15=get_img_info[15],
+                                   now_case=userCase[userName][0], finish_num=finish_num, full_num=full_num,
+                                   img_url_1=userCase[userName][1], img_url_2=userCase[userName][2], img_url_3=userCase[userName][3],
+                                   img_url_4=userCase[userName][4], img_url_5=userCase[userName][5],
+                                   img_url_6=userCase[userName][6], img_url_7=userCase[userName][7], img_url_8=userCase[userName][8],
+                                   img_url_9=userCase[userName][9], img_url_10=userCase[userName][10],
+                                   img_url_11=userCase[userName][11], img_url_12=userCase[userName][12],
+                                   img_url_13=userCase[userName][13], img_url_14=userCase[userName][14],
+                                   img_url_15=userCase[userName][15],
                                    info=tempInfo)
         elif request.method == "POST":
-            res = eval(request.data)
-            img_chosen = str(res['img_chosen'])
-            case_name = str(res['message']).split(': ')[-1]
+            try:
+                get_case_submit_lock.acquire(True)
+                res = eval(request.data)
+                img_chosen = str(res['img_chosen'])
+                case_name = str(res['message']).split(': ')[-1]
 
-            print(img_chosen, case_name)
-            if userName not in userCase or userCase[userName] is None:
-                return redirect('/service')
-            print("用户{}在{}选择{}".format(userName, case_name, img_chosen))
-            res = compareDB.update_choice(case_name, userName, img_chosen)
-            userCase[userName] = None
-            if res:
-                load_info = "提交完成，等待系统继续分配"
-                return redirect('/service')
+                print(img_chosen, case_name)
+                if userName not in userCase or userCase[userName] is None:
+                    return redirect('/service')
+                print("用户{}在{}选择{}".format(userName, case_name, img_chosen))
+                res = compareDB.update_choice(case_name, userName, img_chosen)
+                userCase[userName] = [None for i in range(16)]
+                if res:
+                    load_info = "提交完成，等待系统继续分配"
+            finally:
+                get_case_submit_lock.release()
+                # return redirect('/service')
     print('用户登录过期')
     return render_template('index.html', info="登录过期，请重新登录")
 

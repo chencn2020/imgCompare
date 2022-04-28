@@ -149,15 +149,19 @@ class compareImgDatabase:
             self.get_a_not_finish_case_lock.release()
 
         for case in allCase:
-            if case not in res and case not in userCase.values():
-                casePath = case.split('.')
-                casePath = os.path.join(self.sourcePath, casePath[0], casePath[1])
+            for value in userCase.values():
+                if value is not None and case in value:
+                    break
+            else:
+                if case not in res:
+                    casePath = case.split('.')
+                    casePath = os.path.join(self.sourcePath, casePath[0], casePath[1])
 
-                return_res = [case]
+                    return_res = [case]
 
-                for i in range(1, 16):
-                    return_res.append(os.path.join(casePath, '{}.jpg'.format(i)))
-                return return_res
+                    for i in range(1, 16):
+                        return_res.append(os.path.join(casePath, '{}.jpg'.format(i)))
+                    return return_res
 
         return [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
 
