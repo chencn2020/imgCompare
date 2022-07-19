@@ -32,6 +32,7 @@ class compareImgDatabase:
         for case in sorted(os.listdir(self.casePath)):
             if case.startswith('Case'):
                 caseName.append(case)
+        
         return caseName
 
     def commit_sql(self):
@@ -144,6 +145,8 @@ class compareImgDatabase:
             print('get_a_not_finish_case', allCase)
         finally:
             self.get_a_not_finish_case_lock.release()
+
+        random.shuffle(allCase)
 
         for case in allCase:
             if case not in res:

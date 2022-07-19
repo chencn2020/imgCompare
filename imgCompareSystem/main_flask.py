@@ -11,7 +11,7 @@ import string
 # compareImgDatabase = 'TinyISP_ResizeCrop61_TIQA_20k'
 # compareImgDatabase = 'TinyISP_Crop61_SSIMOnly_20k'
 # compareImgDatabase = 'TinyISP_Full61_TeacherIQA_SSIM_PSNR'
-compareImgDatabase = 'Scheme1'
+compareImgDatabase = 'Teacher_IQA_Full_MDESSIM_DRL_Test'
 print('测试数据集：', compareImgDatabase)
 app = Flask(__name__, static_folder='', static_url_path='')
 checkUser = checkUseInfo.checkUserInfo()
@@ -58,7 +58,7 @@ def log_in():
 
 
 load_info = None
-
+super_manager = ['czw', 'test', 'wj']
 
 @app.route('/loopPic/<choice>', methods=['POST', 'GET'])
 def loopPic(choice):
@@ -75,7 +75,7 @@ def loopPic(choice):
             userChoiceCookie[userName] = 0
         if request.method == "GET":
             [nowCase, img1, img2, res] = compareDB.get_a_not_finish_case(userName)
-            if nowCase is not None and userName != 'czw':
+            if nowCase is not None and userName not in super_manager:
                 load_info = "请完成全部Case后再查看"
                 return redirect('/service')
         elif request.method == 'POST':
