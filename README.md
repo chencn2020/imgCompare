@@ -46,16 +46,7 @@ bash start.sh
 ## 4.界面展示
 
 ### 4.1 登录界面
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./img/login.png">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">登录界面展示（可选择是否记住密码）</div>
-</center>
+![登陆界面](./img/login.png)
 
 
 
